@@ -23,13 +23,16 @@ For Searcher, Trading Bot, Wallet, DEX, and quantitative trading systems, signal
 
 ### What capabilities does Streams provide
 
-#### Mempool
+#### Public Mempool
 
 Mempool is used to obtain unconfirmed transaction or private order stream data with low latency, making it suitable for scenarios that require capturing on-chain signals as early as possible.
 
-* [**Public Mempool**](mempool/bsc/public-mempool.md)**:** Used for low-latency subscription to pending transactions, suitable for monitoring public trading signals.
-* [**Private Mempool**](mempool/bsc/private-mempool.md)**:** Used for subscribing to private orderflow, suitable for scenarios such as backrun.
-* [**Tx Trace**](mempool/bsc/tx-trace.md)**:** Used to observe the propagation path and cross-regional latency distribution of transactions in the Public Mempool, suitable for transaction latency investigation, multi-regional deployment evaluation, and propagation effect verification.
+* [Public Mempool](public-mempool/bsc/public-mempool.md): Used for low-latency subscription to pending transactions, suitable for monitoring public trading signals.
+* [Tx Trace](public-mempool/bsc/tx-trace.md): Used to observe the propagation path and cross-regional latency distribution of transactions in the Public Mempool, suitable for transaction latency investigation, multi-regional deployment evaluation, and propagation effect verification.
+
+#### Private Mempool
+
+[Private Mempool](private-mempool.md): Used for subscribing to private orderflow, suitable for scenarios such as backrun, sniping and copy trading.
 
 #### Block Stream
 
@@ -51,7 +54,7 @@ Unlike subscribing to Block Stream, Node Stream doesn't simply push block data; 
 
 ### How to choose a suitable Stream
 
-<table data-search="false"><thead><tr><th>場景</th><th>適用用戶</th><th>推薦能力</th></tr></thead><tbody><tr><td>monitor pending transactions and backrun / copy trading / sniping</td><td>Searcher, Trading Bot</td><td><a href="mempool/bsc/public-mempool.md">Public Mempool</a></td></tr><tr><td>subscribe provite orderflow and backrun / copy trading / sniping</td><td>Searcher, Trading Bot</td><td><a href="mempool/bsc/private-mempool.md">Private Mempool</a></td></tr><tr><td>Dynamic optimization for Gas / Priority Fee / Tip</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="network-fee-stream/">Network Fee Stream</a></td></tr><tr><td>Keep local nodes and world state up-to-date</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="node-stream/">Node Stream</a></td></tr><tr><td>Observe the transaction propagation path and cross-regional latency</td><td>Searcher, Trading Bot, Quant Team</td><td><a href="mempool/bsc/tx-trace.md">Tx Trace</a></td></tr><tr><td>Subscribe Base FlashBlock Stream</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="block-stream/base/get-flashblocktransaction.md">FlashBlock Stream</a></td></tr><tr><td>Subscribe Solana accounts、transactions、slots and blocks</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="block-stream/solana/geyser-stream/">Geyser Stream</a></td></tr><tr><td>Obtain shreds from Solana with extremely low latency.</td><td>Searcher, Trading Bot</td><td><a href="block-stream/solana/shred-stream.md">Shred Stream</a></td></tr></tbody></table>
+<table data-search="false"><thead><tr><th>場景</th><th>適用用戶</th><th>推薦能力</th></tr></thead><tbody><tr><td>monitor pending transactions and backrun / copy trading / sniping</td><td>Searcher, Trading Bot</td><td><a href="public-mempool/bsc/public-mempool.md">Public Mempool</a></td></tr><tr><td>subscribe provite orderflow and backrun / copy trading / sniping</td><td>Searcher, Trading Bot</td><td><a href="private-mempool.md">Private Mempool</a></td></tr><tr><td>Dynamic optimization for Gas / Priority Fee / Tip</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="network-fee-stream/">Network Fee Stream</a></td></tr><tr><td>Keep local nodes and world state up-to-date</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="node-stream/">Node Stream</a></td></tr><tr><td>Observe the transaction propagation path and cross-regional latency</td><td>Searcher, Trading Bot, Quant Team</td><td><a href="public-mempool/bsc/tx-trace.md">Tx Trace</a></td></tr><tr><td>Subscribe Base FlashBlock Stream</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="block-stream/base/get-flashblocktransaction.md">FlashBlock Stream</a></td></tr><tr><td>Subscribe Solana accounts、transactions、slots and blocks</td><td>Searcher, Trading Bot, Quant Team, Wallets, DEX</td><td><a href="block-stream/solana/geyser-stream/">Geyser Stream</a></td></tr><tr><td>Obtain shreds from Solana with extremely low latency.</td><td>Searcher, Trading Bot</td><td><a href="block-stream/solana/shred-stream.md">Shred Stream</a></td></tr></tbody></table>
 
 ### Quick Start
 

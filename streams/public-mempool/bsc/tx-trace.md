@@ -6,7 +6,7 @@ metaLinks:
   canonical: tx-trace.md
   alternates:
     - >-
-      https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/mempool/bsc/tx-trace
+      https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/public-mempool/bsc/tx-trace
 ---
 
 # BSC Public Mempool Tx Trace

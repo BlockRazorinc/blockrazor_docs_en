@@ -58,7 +58,7 @@ Trading at 0 gwei not only saves transaction costs but also greatly expands the 
 
 #### Speed
 
-BlockRazor provides Searchers with [Public Mempool](../../streams/mempool/bsc/public-mempool.md) and [Block Stream](../../streams/block-stream/bsc/newblocks.md) services, enabling them to subscribe to transactions and synchronize blocks with extremely low latency.
+BlockRazor provides Searchers with [Public Mempool](../../streams/public-mempool/bsc/public-mempool.md) and [Block Stream](../../streams/block-stream/bsc/newblocks.md) services, enabling them to subscribe to transactions and synchronize blocks with extremely low latency.
 
 Benchmark shows that compared to the industry-leading high-performance network provider bloXroute, BlockRazor can receive the latest transactions with lower latency. Detailed data comparisons are as follows:
 
@@ -74,7 +74,7 @@ The chart data shows that transactions submitted to Scutum have a probability of
 
 #### Cost
 
-BlockRazor's subscription plans are highly competitive in terms of pricing, and Searchers are allowed to send 0 gwei transactions to the Builder with the highest block production rate on BSC. Additionally, Searchers can subscribe to the [Private Mempool](../../streams/mempool/bsc/private-mempool.md), and by executing backrun strategies, they can further expand the range of arbitrage opportunities. The profits generated from this can be used to subsidize the costs associated with the subscription plan.
+BlockRazor's subscription plans are highly competitive in terms of pricing, and Searchers are allowed to send 0 gwei transactions to the Builder with the highest block production rate on BSC. Additionally, Searchers can subscribe to the [Private Mempool](../../streams/private-mempool.md), and by executing backrun strategies, they can further expand the range of arbitrage opportunities. The profits generated from this can be used to subsidize the costs associated with the subscription plan.
 
 ### How to use BlockRazor Service
 
@@ -82,14 +82,14 @@ BlockRazor's subscription plans are highly competitive in terms of pricing, and 
 
 1. [Register](https://www.blockrazor.io/#/register) for BlockRazor
 2. [Log in](https://www.blockrazor.io/#/login) to BlockRazor, purchase Private Mempool, and go to the account module to obtain the auth token
-3. Subscribe to the [Private Mempool](../../streams/mempool/bsc/public-mempool.md)
+3. Subscribe to the [Private Mempool](../../streams/private-mempool.md)
 4. Execute the arbitrage strategy, and submit bundle to BlockRazor RPC using [Bundle](../../transaction-submission/rpc/bsc/orderflow-auction.md)
 
 #### **Arbitrage of Public Mempool**
 
 1. [Register](https://www.blockrazor.io/#/register) for BlockRazor
 2. [Log in](https://www.blockrazor.io/#/login) to BlockRazor, purchase Public Mempool, and go to the account module to obtain the auth token
-3. Integrate the [<mark style="color:blue;">Public Mempool</mark>](../../streams/mempool/bsc/public-mempool.md) to subscribe to the latest transactions with low latency; synchronize blocks with low latency through [Node Stream](../../streams/node-stream/bsc/full-node-synchronization.md) if you have local node.
+3. Integrate the [<mark style="color:blue;">Public Mempool</mark>](../../streams/public-mempool/bsc/public-mempool.md) to subscribe to the latest transactions with low latency; synchronize blocks with low latency through [Node Stream](../../streams/node-stream/bsc/full-node-synchronization.md) if you have local node.
 4. Execute the arbitrage strategy, and submit bundle to BlockRazor RPC using [Bundle](../../transaction-submission/rpc/bsc/orderflow-auction.md).
 
 #### **0 Gwei Transaction at End of Block**

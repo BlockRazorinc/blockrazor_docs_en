@@ -13,7 +13,7 @@ metaLinks:
 
 ### Introduction
 
-Searcher can subscribe [Private Mempool](../../../streams/mempool/bsc/private-mempool.md) to execute the backrun strategy, and then send the backrun bundles to BlockRazor RPC to obtain benefits via backrun auction.
+Searcher can subscribe [Private Mempool](../../../streams/private-mempool.md) to execute the backrun strategy, and then send the backrun bundles to BlockRazor RPC to obtain benefits via backrun auction.
 
 In addition, Searcher can also skip bundle subscription and send the raw bundle directly to BlockRazor RPC. With the high-performance network, BlockRazor can forward the bundle to mainstream builders with extremely low latency, eliminating the need for repeated integrations with each builder.
 
@@ -39,7 +39,7 @@ interface IProxyBid {
 }
 ```
 
-The biding proxy contract address (proxyBidContract), refundAddress and refundCfg can be obtained from [Private Mempool](../../../streams/mempool/bsc/private-mempool.md) and msg.value(the biding value) must be greater than 0.
+The biding proxy contract address (proxyBidContract), refundAddress and refundCfg can be obtained from [Private Mempool](../../../streams/private-mempool.md) and msg.value(the biding value) must be greater than 0.
 
 The correctness of the parameters will be strictly verified by BlockRazor RPC. Please do not directly transfer to the refundAddress and the address of bidding proxy contract or perform other operations that may cause changes to the balance of the above account.
 

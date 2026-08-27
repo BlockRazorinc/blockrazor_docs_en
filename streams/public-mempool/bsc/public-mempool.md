@@ -6,7 +6,7 @@ metaLinks:
   canonical: public-mempool.md
   alternates:
     - >-
-      https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/mempool/bsc/public-mempool
+      https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/public-mempool/bsc/public-mempool
 ---
 
 # BSC Public Mempool

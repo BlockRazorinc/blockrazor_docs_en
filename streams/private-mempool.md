@@ -5,8 +5,7 @@ description: >-
 metaLinks:
   canonical: private-mempool.md
   alternates:
-    - >-
-      https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/mempool/bsc/private-mempool
+    - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/private-mempool
 ---
 
 # BSC Private Mempool
@@ -29,7 +28,7 @@ Private Mempool is suitable for users who want to monitor, judge, and execute st
 
 In the BSC scenario, many high-value transactions do not appear in the public Mempool, but are instead included via a private routing provided by BlockRazor RPC. For users who want to build strategies around these transactions, waiting until the transactions are finally included to capture signals often means missing more valuable processing opportunities.
 
-Private Mempool relies on [BEF](../../../core-technology/blockchain-edge-fabric.md) to provide users in different regions with access to private orderflow, enabling users to conduct earlier analysis and decisions based on the private transactions.
+Private Mempool relies on [BEF](../core-technology/blockchain-edge-fabric.md) to provide users in different regions with access to private orderflow, enabling users to conduct earlier analysis and decisions based on the private transactions.
 
 ### Quick Start
 
@@ -43,7 +42,7 @@ Go to the [Pricing](https://blockrazor.io/#/pricing) page to purchase
 {% step %}
 **Apply for Auth**
 
-For Details, see [Authentication](../../../get-started/authentication.md)
+For Details, see [Authentication](../get-started/authentication.md)
 {% endstep %}
 
 {% step %}
@@ -55,7 +54,7 @@ For Details, see [Request Example](private-mempool.md#request-example)
 {% step %}
 **Construct &  submit bundle**
 
-For Details, see [Bundle](../../../transaction-submission/rpc/bsc/orderflow-auction.md)
+For Details, see [Bundle](../transaction-submission/rpc/bsc/orderflow-auction.md)
 {% endstep %}
 {% endstepper %}
 

@@ -1,21 +1,27 @@
 ---
 description: >-
-  This section explains how to obtain the auth information for BlockRazor, which
-  is used to send requests to the API.
+  When integrating with BlockRazor services, if "auth" is required in the
+  request, please follow the steps below to obtain it
 metaLinks:
   canonical: authentication.md
   alternates:
     - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/authentication
 ---
 
-# How to Obtain Auth
+# How to Obtain Auth Token
 
-When integrating with BlockRazor services, if "auth" is required in the request, please follow the steps below to obtain it:
+{% stepper %}
+{% step %}
+**Create Account**
 
-1. Go to [https://www.blockrazor.io](https://www.blockrazor.io/) and click on \[Register] in the upper right corner of the webpage, the system will redirect you to the registration page.
-2. On the registration page, enter your email and password, then click \[Register], the system will send an account activation email to your mailbox.
-3. Go to your mailbox, check the account activation email, and click on the account activation link.
-4. After completing the account activation, proceed to log in, check your account information, and copy the auth token.
+[Sign up](https://blockrazor.io/#/register?redirect=onboarding) to create an account
+{% endstep %}
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+{% step %}
+**Log in**
 
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+
+Log in and obtain the auth token in the home page
+{% endstep %}
+{% endstepper %}
