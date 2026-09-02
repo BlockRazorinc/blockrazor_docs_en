@@ -13,6 +13,10 @@ metaLinks:
 
 Base RPC is a transaction sending interface provided by BlockRazor for Base, used to send signed raw transactions. Currently, it only supports the `eth_sendRawTransaction` method and provides both gRPC and HTTPS.
 
+### Price
+
+<table><thead><tr><th width="216.2578125">User Type</th><th width="140.359375">Limit</th><th>Price</th></tr></thead><tbody><tr><td>New registered users</td><td>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid users</td><td>5 Txs / 1s</td><td>$100 / day<br>$1000 /  month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_rpc_send_tx&#x26;billing=day" class="button primary small">Subscribe</a></td></tr></tbody></table>
+
 ### Why choose BlockRazor Base RPC?
 
 For Wallets and DEXs, directly connecting to the official Base Sequencer can meet basic sending requirements, but for businesses serving global users and focusing on cross-regional performance and production environment stability, the sending path itself still has room for further optimization. For a detailed comparison of BlockRazor Base RPC and the official sending service, please refer to the [Benchmark](https://blockrazor.io/blog/20250922basebenchmark/).

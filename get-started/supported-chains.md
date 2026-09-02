@@ -21,7 +21,7 @@ metaLinks:
 
 ### Robinhood Chain
 
-<table><thead><tr><th width="239">Service</th><th>Index</th></tr></thead><tbody><tr><td>Transaction Submission</td><td><ul><li><a href="../transaction-submission/transaction-sending/robinhood-chain/eth_sendrawtransaction/">Transaction Sending</a></li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="239">Service</th><th>Index</th></tr></thead><tbody><tr><td>Transaction Submission</td><td><ul><li><a href="../transaction-submission/transaction-sending/robinhood-chain/eth_sendrawtransaction/">Transaction Sending</a></li></ul></td></tr><tr><td>Streams</td><td><ul><li><a href="../streams/node-stream/robinhood-chain/sequencer-feed.md">Node Stream</a></li></ul></td></tr></tbody></table>
 
 ### Ethereum
 

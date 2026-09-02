@@ -23,10 +23,6 @@ metaLinks:
 {% endtab %}
 {% endtabs %}
 
-### Price
-
-<table><thead><tr><th width="216.2578125">User Type</th><th width="140.359375">Limit</th><th>Price</th></tr></thead><tbody><tr><td>New registered users</td><td>1 Tx / 5s</td><td>免費</td></tr><tr><td>Paid users</td><td>5 Txs / 1s</td><td>$100 / day<br>$1000 /  month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_rpc_send_tx&#x26;billing=day" class="button primary small">Subscribe</a></td></tr></tbody></table>
-
 ### Request Parameter
 
 <table><thead><tr><th width="106.7421875">Parameter</th><th width="111.046875">Mandatory</th><th width="121.6796875">Format</th><th>Example</th><th>Remark</th></tr></thead><tbody><tr><td>rawTransaction</td><td>mandatory</td><td>string[hex]</td><td>"0xd46e8dd67c5d32be8d24c6b0afe7c5c3f4e9c3b2dae18d0c6b0cf5c8f3e8b2c1"</td><td>signed raw transaction</td></tr></tbody></table>
