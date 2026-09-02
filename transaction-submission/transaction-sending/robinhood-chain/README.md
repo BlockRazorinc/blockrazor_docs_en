@@ -17,7 +17,7 @@ Robinhood Chain is a Ethereum Layer 2 built on Arbitrum, optimized for tokenized
 
 ### Price
 
-<table><thead><tr><th width="216.2578125">User Type</th><th width="237.40234375">Limit</th><th>Price</th></tr></thead><tbody><tr><td>New registered users</td><td><code>eth_sendRawTransaction</code><br>1 Tx / 5s<br><br><code>eth_sendBatch</code><br>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid users</td><td><code>eth_sendRawTransaction</code><br>5 Txs / 1s<br><br>eth_sendBatch<br>5 Tx / 1s</td><td>$100 / day<br>$1000 /  month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=robinhood&#x26;serviceId=robinhood_rpc_send_tx&#x26;billing=day" class="button primary small">Subscribe</a></td></tr></tbody></table>
+<table><thead><tr><th width="216.2578125">User Type</th><th width="237.40234375">Limit</th><th>Price</th></tr></thead><tbody><tr><td>New registered users</td><td><code>eth_sendRawTransaction</code><br>1 Tx / 5s<br><br><code>eth_sendBatch</code><br>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid users</td><td><code>eth_sendRawTransaction</code><br>10 Txs / 1s<br><br>eth_sendBatch<br>10 Tx / 1s</td><td>$100 / day<br>$1000 /  month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=robinhood&#x26;serviceId=robinhood_rpc_send_tx&#x26;billing=day" class="button primary small">Subscribe</a></td></tr></tbody></table>
 
 ### Benchmark
 
