@@ -8,7 +8,11 @@ description: >-
 
 ### What Is the Direct Sequencer Feed(Ultra)?
 
-Building on the [standard version](direct-sequencer-feed.md), Direct Sequencer Feed (Ultra) introduces deeper optimizations to network transmission paths and mechanisms, further reducing the end-to-end latency of Sequencer Feed delivery.
+Direct Sequencer Feed (Ultra) is an ultra-low-latency data transmission solution built on the [Standard version](direct-sequencer-feed.md). It deeply optimizes network routing and underlying transmission mechanisms to further reduce the end-to-end latency of Sequencer Feed delivery.
+
+Powered by BEF technology, the Ultra version provides access to the latest block data at exceptional speed—without requiring users to deploy or operate a node.
+
+The solution is purpose-built for advanced sniping and copy-trading strategies where timing is critical. It enables trading systems to capture on-chain activity earlier and secure valuable time for strategy computation and transaction execution—turning every microsecond into a competitive advantage.
 
 ### Price
 

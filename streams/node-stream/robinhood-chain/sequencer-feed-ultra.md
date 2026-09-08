@@ -8,7 +8,56 @@ description: >-
 
 ### What is Node-required Sequencer Feed(Ultra)
 
-Building on the [standard version](sequencer-feed.md), Node-required Sequencer Feed (Ultra) introduces deeper optimizations to network transmission paths and mechanisms, further reducing the end-to-end latency of Sequencer Feed delivery.
+Node-required Sequencer Feed (Ultra) is an ultra-low-latency data transmission solution built on the [Standard version](sequencer-feed.md). It deeply optimizes network routing and underlying transmission mechanisms to further reduce the end-to-end latency of Sequencer Feed delivery.
+
+Powered by BEF technology, the Ultra version delivers ordered block data to your local node with the lowest possible latency, enabling trading systems to access critical on-chain state earlier.
+
+The solution is purpose-built for latency-sensitive applications, including advanced arbitrage, order flow analysis, and quantitative trading. In an environment where competition is measured in microseconds, earlier access to ordered block data provides more time for strategy computation and transaction execution. Microseconds define the edge.
+
+### Benchmark
+
+We established WSS connections with both the Robinhood Chain Sequencer Feed and the BlockRazor Sequencer Feed using the same test client. The Robinhood Chain Sequencer Feed endpoint is wss://[feed.mainnet.chain.robinhood.com](http://feed.mainnet.chain.robinhood.com/), and the BlockRazor used the `/ws/ultra` endpoint.
+
+One test client was deployed in each AWS US East (Ohio) Availability Zone (`use2-az1`, `use2-az2`, and `use2-az3`) to compare the relative block delivery latency of the two Sequencer Feeds. For each block, the Sequencer Feed that delivered the block first was assigned a relative latency of `0 ms`. The relative latency of the other feed was calculated from the difference between their block arrival timestamps.
+
+You can use the [robinhood-feed-speed benchmark tool](https://github.com/BlockRazorinc/robinhood-feed-speed) to reproduce the test.
+
+Benchmark data is as follows:
+
+{% tabs %}
+{% tab title="use2-az1" %}
+Total samples: `4,232`
+
+| Sequencer Feed                 |          P50 |          P90 |          P95 |          P99 |          Max |
+| ------------------------------ | -----------: | -----------: | -----------: | -----------: | -----------: |
+| **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** |
+| Robinhood Chain Sequencer Feed |    28.026 ms |    45.177 ms |    52.780 ms |    85.805 ms |   818.664 ms |
+{% endtab %}
+
+{% tab title="use2-az2" %}
+Total samples: `4,305`
+
+| Sequencer Feed                 |          P50 |          P90 |          P95 |          P99 |          Max |
+| ------------------------------ | -----------: | -----------: | -----------: | -----------: | -----------: |
+| **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** |
+| Robinhood Chain Sequencer Feed |    97.404 ms |   195.406 ms |   301.405 ms |   953.111 ms | 1,616.810 ms |
+{% endtab %}
+
+{% tab title="use2-az3" %}
+Total samples: `4,714`
+
+| Sequencer Feed                 |          P50 |          P90 |          P95 |          P99 |          Max |
+| ------------------------------ | -----------: | -----------: | -----------: | -----------: | -----------: |
+| **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **9.580 ms** |
+| Robinhood Chain Sequencer Feed |    27.310 ms |    52.828 ms |    66.711 ms |   111.686 ms |   736.300 ms |
+{% endtab %}
+{% endtabs %}
+
+Across all three Availability Zones, the BlockRazor Sequencer Feed maintained a relative latency of `0 ms` through P99. In comparison, the Robinhood Chain Sequencer Feed recorded median relative latencies ranging from `27.310 ms` to `97.404 ms`.
+
+The difference was most pronounced in `use2-az2`, where the Robinhood Chain Sequencer Feed reached `97.404 ms` at P50, `953.111 ms` at P99, and a maximum relative latency of `1,616.810 ms`.
+
+In summary, the benchmark results show that the BlockRazor Sequencer Feed consistently delivered blocks earlier and with substantially lower relative latency across all three tested Availability Zones. This provides a faster and more stable first-delivery window for latency-sensitive applications and transactions.
 
 ### Price
 
