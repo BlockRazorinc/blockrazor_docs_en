@@ -51,6 +51,17 @@ Total samples: `4,714`
 | **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **9.580 ms** |
 | Robinhood Chain Sequencer Feed |    27.310 ms |    52.828 ms |    66.711 ms |   111.686 ms |   736.300 ms |
 {% endtab %}
+
+{% tab title="Tokyo" %}
+Total samples: `3,996`
+
+| Sequencer Feed                  |          P50 |          P90 |          P95 |          P99 |           Max |
+| ------------------------------- | -----------: | -----------: | -----------: | -----------: | ------------: |
+| **BlockRazor Sequencer Feed**   | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **68.232 ms** |
+|  Robinhood Chain Sequencer Feed |    71.365 ms |   108.596 ms |   116.049 ms |   220.859 ms |   1969.576 ms |
+
+
+{% endtab %}
 {% endtabs %}
 
 Across all three Availability Zones, the BlockRazor Sequencer Feed maintained a relative latency of `0 ms` through P99. In comparison, the Robinhood Chain Sequencer Feed recorded median relative latencies ranging from `27.310 ms` to `97.404 ms`.
