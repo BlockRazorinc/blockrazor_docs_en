@@ -14,6 +14,16 @@ Powered by BEF technology, the Ultra version provides access to the latest block
 
 The solution is purpose-built for advanced sniping and copy-trading strategies where timing is critical. It enables trading systems to capture on-chain activity earlier and secure valuable time for strategy computation and transaction execution—turning every microsecond into a competitive advantage.
 
+### FAQ
+
+<details>
+
+<summary><strong>What is the difference between the Node-required Sequencer Feed and the Direct Sequencer Feed?</strong></summary>
+
+<table><thead><tr><th width="127.98828125">Comparison</th><th width="255.9140625">Node-required Sequencer Feed</th><th>Direct Sequencer Feed</th></tr></thead><tbody><tr><td>Access Method</td><td>Must be received through a node</td><td>Clients can connect directly without running a nod</td></tr><tr><td>Block Delivery</td><td>Delivers blocks sequentially by block height without skipping any blocks</td><td>Prioritizes the latest block; intermediate blocks may be skipped during network congestion</td></tr><tr><td>Node State Dependency</td><td>Relies on the node’s low-latency synchronized state</td><td>Does not require a local node to maintain complete and continuous state synchronization</td></tr><tr><td>Deployment Cost</td><td>Requires node deployment, maintenance, and monitoring</td><td>Easy to integrate, with lower operational costs</td></tr><tr><td>Suitable Use Cases</td><td>Backrunning and order flow projects</td><td>Sniping and copy trading</td></tr></tbody></table>
+
+</details>
+
 ### Price
 
 The price is $200 per unit per day and $2000 per unit per month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=robinhood&#x26;serviceId=robinhood_direct_feed_stream_speedup&#x26;billing=day" class="button primary small">Subscribe</a>
