@@ -11,19 +11,7 @@ metaLinks:
 
 # Robinhood Chain eth\_sendRawTransaction
 
-{% hint style="info" %}
-Robinhood Chain RPC is not currently available to the public. If you would like to integrate with it, please [contact us](https://discord.gg/qqJuwRb8Nh).
-{% endhint %}
-
 `eth_sendRawTransaction` is a transaction sending interface provided by BlockRazor for Robinhood Chain. Users can use this method to send signed raw transactions to the chain with low latency. Currently, HTTPS protocol is supported.
-
-### What is Robinhood Chain <a href="#what-is-robinhood-chain" id="what-is-robinhood-chain"></a>
-
-Robinhood Chain is a Ethereum Layer 2 built on Arbitrum, optimized for tokenized real-world assets including equities and ETFs, enabling 24/7 onchain trading and self-custody.
-
-Robinhood Chain Website：[https://robinhood.com/us/en/chain/](https://robinhood.com/us/en/chain/)
-
-Robinhood Chain Stats：[https://robinhoodchain.blockscout.com/stats](https://robinhoodchain.blockscout.com/stats)
 
 ### Benchmark
 
@@ -31,7 +19,7 @@ We deployed test clients across AWS regions in Frankfurt, Ohio, and Japan, and s
 
 Performance was evaluated by comparing the ratio of transactions that were ultimately included through each channel. A higher on-chain inclusion rate indicates faster transaction propagation and execution performance. The benchmark results are shown below.
 
-<table><thead><tr><th width="174.3359375">Region</th><th>BlockRazor Inclusion Rate</th><th>Robinhood Inclusion Rate</th></tr></thead><tbody><tr><td>Frankfurt</td><td>88%</td><td>12%</td></tr><tr><td>Ohio</td><td>50%</td><td>50%</td></tr><tr><td>Japan</td><td>96%</td><td>4%</td></tr></tbody></table>
+<table><thead><tr><th width="174.3359375">Region</th><th>BlockRazor Inclusion Rate</th><th>Robinhood Inclusion Rate</th></tr></thead><tbody><tr><td>Frankfurt</td><td>70%</td><td>30%</td></tr><tr><td>Ohio</td><td>60%</td><td>40%</td></tr><tr><td>Tokyo</td><td>65%</td><td>35%</td></tr><tr><td>Singapore</td><td>65%</td><td>35%</td></tr></tbody></table>
 
 ### Request parameters
 

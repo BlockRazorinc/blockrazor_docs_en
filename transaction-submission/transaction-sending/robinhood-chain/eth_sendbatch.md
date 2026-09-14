@@ -11,21 +11,9 @@ metaLinks:
 
 # Robinhood Chain eth\_sendBatch
 
-{% hint style="info" %}
-Robinhood Chain Transaction Sending mode is not currently available to the public. If you would like to integrate with it, please [contact us](https://discord.gg/qqJuwRb8Nh).
-{% endhint %}
-
 `eth_sendBatch` is a transaction batch sending interface provided by BlockRazor for Robinhood Chain. Users can use this method to send signed raw transactions in batches to the chain with low latency. Currently, HTTPS protocol is supported.
 
 A batch has a maximum transaction capacity of 10 transactions, which are sent sequentially to Robinhood's official sequencer every 5ms. It's important to note that batches are not atomic and there is no guarantee that the final on-chain order will match the expected request order.
-
-### What is Robinhood Chain <a href="#what-is-robinhood-chain" id="what-is-robinhood-chain"></a>
-
-Robinhood Chain is a Ethereum Layer 2 built on Arbitrum, optimized for tokenized real-world assets including equities and ETFs, enabling 24/7 onchain trading and self-custody.
-
-Robinhood Chain Website：[https://robinhood.com/us/en/chain/](https://robinhood.com/us/en/chain/)
-
-Robinhood Chain Stats：[https://robinhoodchain.blockscout.com/stats](https://robinhoodchain.blockscout.com/stats)
 
 ### Request parameters
 
