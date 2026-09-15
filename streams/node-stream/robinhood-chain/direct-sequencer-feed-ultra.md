@@ -30,7 +30,15 @@ The price is $200 per unit per day and $2000 per unit per month. <a href="https:
 
 ### Endpoint
 
-<table><thead><tr><th width="148.26171875">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Ohio</td><td>wss://us.robinhood-feeder.blockrazor.io/ws/direct/ultra/{authToken}</td></tr><tr><td>Tokyo</td><td>wss://jp.robinhood-feeder.blockrazor.io/ws/direct/ultra/{authToken}</td></tr></tbody></table>
+{% tabs %}
+{% tab title="ws" %}
+<table><thead><tr><th width="152.515625">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Ohio</td><td>ws://us.robinhood-feeder.blockrazor.io/ws/{authToken}</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="wss" %}
+<table><thead><tr><th width="152.515625">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Ohio</td><td>wss://us.robinhood-feeder.blockrazor.io/ws/{authToken}</td></tr><tr><td>Tokyo</td><td>wss://jp.robinhood-feeder.blockrazor.io/ws/{authToken}</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
 
 ### Usage Instructions
 
@@ -40,9 +48,9 @@ The price is $200 per unit per day and $2000 per unit per month. <a href="https:
 {% endstep %}
 
 {% step %}
-**Retrieve the auth from the portal and append it as the URI to the WSS URL.**
+**Retrieve the auth from the portal and append it as the URI to the WS URL.**
 
-wss://us.robinhood-feeder.blockrazor.io/ws/{authToken}
+ws://us.robinhood-feeder.blockrazor.io/ws/{authToken}
 {% endstep %}
 
 {% step %}

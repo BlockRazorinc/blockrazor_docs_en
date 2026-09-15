@@ -86,7 +86,15 @@ The price is $200 per unit per day and $2000 per unit per month. <a href="https:
 
 ### Endpoint
 
-<table><thead><tr><th width="148.26171875">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Ohio</td><td>wss://us.robinhood-feeder.blockrazor.io/ws/ultra/{authToken}</td></tr><tr><td>Tokyo</td><td>wss://jp.robinhood-feeder.blockrazor.io/ws/ultra/{authToken}</td></tr></tbody></table>
+{% tabs %}
+{% tab title="ws" %}
+<table><thead><tr><th width="152.515625">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Ohio</td><td>ws://us.robinhood-feeder.blockrazor.io/ws/{authToken}</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="wss" %}
+<table><thead><tr><th width="152.515625">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Ohio</td><td>wss://us.robinhood-feeder.blockrazor.io/ws/{authToken}</td></tr><tr><td>Tokyo</td><td>wss://jp.robinhood-feeder.blockrazor.io/ws/{authToken}</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
 
 ### Usage Instructions
 
@@ -96,9 +104,9 @@ The price is $200 per unit per day and $2000 per unit per month. <a href="https:
 {% endstep %}
 
 {% step %}
-**Retrieve the auth from the portal and append it as the URI to the WSS URL.**
+**Retrieve the auth from the portal and append it as the URI to the WS URL.**
 
-wss://us.robinhood-feeder.blockrazor.io/ws/{authToken}
+ws://us.robinhood-feeder.blockrazor.io/ws/{authToken}
 {% endstep %}
 
 {% step %}
@@ -120,7 +128,7 @@ replace it with BlockRazor Sequencer Feed：
 
 ```bash
 --node.feed.input.url=wss://feed.mainnet.chain.robinhood.com
---node.feed.input.url=wss://us.robinhood-feeder.blockrazor.io/ws/{authToken}
+--node.feed.input.url=ws://us.robinhood-feeder.blockrazor.io/ws/{authToken}
 ```
 
 The complete mainnet startup example is as follows:
@@ -138,7 +146,7 @@ docker run --rm -it \
     --parent-chain.connection.url=<L1_EXECUTION_RPC_URL> \
     --parent-chain.blob-client.beacon-url=<L1_BEACON_URL> \
     --init.genesis-json-file=/home/nitro/config/robinhood-genesis.json \
-    --node.feed.input.url=wss://<BLOCKRAZOR_FEED_URL> \
+    --node.feed.input.url=ws://<BLOCKRAZOR_FEED_URL> \
     --http.addr=0.0.0.0 \
     --http.port=8547 \
     --http.api=net,web3,eth
