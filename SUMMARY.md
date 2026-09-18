@@ -154,4 +154,5 @@
 
 ## 📄 Statement
 
+* [User Agreement](statement/user-agreement.md)
 * [Privacy Statement](statement/privacy-statement.md)
