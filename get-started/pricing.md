@@ -1,7 +1,7 @@
 ---
 description: >-
-  Subscribe to BlockRazor services, scale on demand, and strengthen your
-  competitive edge.
+  Explore BlockRazor's Streams and Transaction Submission services, review the
+  service content, and choose the appropriate solution based on your needs.
 layout:
   width: default
   title:
@@ -20,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 metaLinks:
   canonical: pricing.md
   alternates:
@@ -27,7 +29,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/subscription-service
 ---
 
-# Pricing
+# BlockRazor Pricing | Streams & Transaction Submission
 
 ### Personalized
 

@@ -1,15 +1,15 @@
 ---
 description: >-
-  Global low-latency infrastructure for orderflow projects, trading bots,
-  searchers, and quant trading on BSC, Solana, Ethereum, Base, and Robinhood
-  Chain.
+  Explore BlockRazor's global low-latency infrastructure for orderflow projects,
+  trading bots, searchers, and quant trading on BSC, Solana, Ethereum, Base, and
+  Robinhood Chain.
 metaLinks:
   canonical: ./
   alternates:
     - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/overview
 ---
 
-# Overview
+# Global Low-Latency Web3 Infrastructure
 
 BlockRazor is a research institution focused on Web3 infrastructure and DeFi trading. It focuses on solving key problems in trading scenarios and continuously transforms its research results into infrastructure products and services, creating a globally distributed, high-performance multi-chain infrastructure system for builders who pursue excellence.
 

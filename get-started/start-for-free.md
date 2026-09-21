@@ -1,14 +1,15 @@
 ---
 description: >-
-  BlockRazor offers new registered users multi-mode transaction sending modes on
-  Solana, BSC, Robinhood Chain, Etherem, and Base for free.
+  Start using BlockRazor transaction submission services for free on BSC,
+  Solana, Robinhood Chain, Base and Ethereum. Create an account, get an Auth
+  Token, and choose an integration mode.
 metaLinks:
   canonical: start-for-free.md
   alternates:
     - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/start-for-free
 ---
 
-# Start for Free
+# Start Sending Blockchain Transactions Free
 
 ### RPC
 

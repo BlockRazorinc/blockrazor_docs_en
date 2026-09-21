@@ -2,17 +2,17 @@
 
 ## Get Started
 
-* [Overview](README.md)
-* [Which Chains Do We Support](get-started/supported-chains.md "Supported Chains")
-* [Start for Free](get-started/start-for-free.md)
-* [Pricing](get-started/pricing.md)
-* [How to Obtain Auth Token](get-started/authentication.md "Obtain Auth Token")
-* [Who Do We Serve](get-started/use-cases/README.md "Use Cases")
-  * [Wallet / DEX](get-started/use-cases/wallet-dex.md)
-  * [Trading Bot](get-started/use-cases/trading-bot.md)
-  * [Searcher](get-started/use-cases/searcher.md)
-  * [Quant Trading](get-started/use-cases/quant-trading.md)
-  * [Individual Trader](get-started/use-cases/individual-trader.md)
+* [Global Low-Latency Web3 Infrastructure](README.md "Overview")
+* [Supported Blockchain Networks](get-started/supported-chains.md "Supported Chains")
+* [Start Sending Blockchain Transactions Free](get-started/start-for-free.md "Start for Free")
+* [BlockRazor Pricing | Streams & Transaction Submission](get-started/pricing.md "Pricing")
+* [Get a BlockRazor Auth Token | API Authentication](get-started/authentication.md "Obtain Auth Token")
+* [Use Cases for Onchain Trading Teams](get-started/use-cases/README.md "Use Cases")
+  * [Global Low-latency Infrastructure for Wallets & DEXs](get-started/use-cases/wallet-dex.md "Wallet / DEX")
+  * [Global Low-latency Infrastructure for Copy Trading & Sniping](get-started/use-cases/trading-bot.md "Trading Bot")
+  * [MEV Searcher Infrastructure and Bundle API](get-started/use-cases/searcher.md "Searcher")
+  * [Global Low-latency Infrastructure for Quant Trading](get-started/use-cases/quant-trading.md "Quant Trading")
+  * [BlockRazor RPC for Individual Traders](get-started/use-cases/individual-trader.md "Individual Trader")
 
 ## Streams
 

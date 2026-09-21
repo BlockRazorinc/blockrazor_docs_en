@@ -1,8 +1,7 @@
 ---
 description: >-
-  This section introduces the pain points of wallets/dexs in transaction sending
-  scenarios and how to solve these pain points by using Blockrazor services,
-  including RPC and Fast mode
+  See how wallets/DEXs get transactions faster and mev-protected by using
+  Blockrazor services, including RPC and Transaction Sending mode
 metaLinks:
   canonical: wallet-dex.md
   alternates:
@@ -10,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/use-cases/wallet-dex
 ---
 
-# Wallet / DEX
+# Global Low-latency Infrastructure for Wallets & DEXs
 
 In the current DeFi ecosystem, wallets andvDEXs are facing increasingly severe challenges in user retention. As the market matures, users are no longer satisfied with basic transaction fulfillment; their expectations for security, convenience, and real-time execution are rising. Furthermore, there is a growing interest in emerging trading models such as copy trading and token sniping.
 

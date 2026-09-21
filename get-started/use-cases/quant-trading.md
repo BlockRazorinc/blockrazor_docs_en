@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the pain points of quantitative trading systems and
-  explains how to use Blockrazor services to improve on-chain certainty.
+  See how quant trading teams use BlockRazor for earlier on-chain signals, and
+  faster and high-certainty transaction submission.
 metaLinks:
   canonical: quant-trading.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/use-cases/algorithmic-trading
 ---
 
-# Quant Trading
+# Global Low-latency Infrastructure for Quant Trading
 
 DEX-CEX Arbitrage is a low-risk quantitative trading strategy. Due to factors such as liquidity, market mechanisms, and trading speed, certain trading pairs may have price differences at the same time on different exchanges. The arbitrage strategy involves buying assets on the exchange with lower prices and selling them on the exchange with higher prices, thereby earning the price difference.
 

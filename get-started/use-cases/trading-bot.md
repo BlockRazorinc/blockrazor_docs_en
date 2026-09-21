@@ -1,8 +1,7 @@
 ---
 description: >-
-  This section introduces the pain points of Trading Bots in signal listening
-  and transaction sending scenarios, and how to use Blockrazor to extend and
-  accelerate signal listening and transactions
+  See how trading bots(Copy Trading & Sniping) use BlockRazor for earlier
+  on-chain signals and faster transaction submission.
 metaLinks:
   canonical: trading-bot.md
   alternates:
@@ -10,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/use-cases/trading-bot
 ---
 
-# Trading Bot
+# Global Low-latency Infrastructure for Copy Trading & Sniping
 
 In onchain trading, a Trading Bot's competitiveness depends not only on its strategy, but also on two critical dimensions of speed:
 

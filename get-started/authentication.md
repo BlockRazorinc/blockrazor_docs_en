@@ -1,14 +1,14 @@
 ---
 description: >-
-  When integrating with BlockRazor services, if "auth" is required in the
-  request, please follow the steps below to obtain it
+  Learn how to create a BlockRazor account, obtain an Auth Token, and add the
+  auth value to supported API requests before integrating BlockRazor services.
 metaLinks:
   canonical: authentication.md
   alternates:
     - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/authentication
 ---
 
-# How to Obtain Auth Token
+# Get a BlockRazor Auth Token | API Authentication
 
 {% stepper %}
 {% step %}

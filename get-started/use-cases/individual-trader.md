@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section addresses the pain points of individual traders and explains how
-  to add BlockRazor RPC to your wallet.
+  See how to add BlockRazor RPC to your wallet and compare different rpc mode
+  including default mode, full privacy mode and max backrun mode
 metaLinks:
   canonical: individual-trader.md
   alternates:
@@ -9,11 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/use-cases/individual-trader
 ---
 
-# Individual Trader
-
-{% hint style="info" %}
-Individual users can use general RPC without subscribing to a plan.
-{% endhint %}
+# BlockRazor RPC for Individual Traders
 
 For users who frequently trade on DEXs, there is a high probability that their trades will execute at the maximum slippage limit, resulting in "invisible" financial losses. Individual traders can now [add](individual-trader.md#how-to-add-rpc-to-my-wallet) the BlockRazor RPC to their wallets with a single click. From then on, all initiated swap transactions will benefit from the deep protection of the BlockRazor RPC, reducing slippage losses while offering the opportunity to receive real-time transaction rebates. Currently, BlockRazor supports RPC integration for individual traders on Ethereum and BSC.
 

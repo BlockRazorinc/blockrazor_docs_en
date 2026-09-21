@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section discusses the pain points of Searcher in handling bundles and how
-  to use Blockrazor services to enhance competitiveness.
+  See how MEV searchers use BlockRazor for earlier on-chain signals and faster
+  transaction submission.
 metaLinks:
   canonical: searcher.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/get-started/use-cases/searcher
 ---
 
-# Searcher
+# MEV Searcher Infrastructure and Bundle API
 
 As competition becomes increasingly fierce, Searchers can no longer win solely with Alpha strategies; they must also possess Beta competitiveness to further improve their chances of success.
 
