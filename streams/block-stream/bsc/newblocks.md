@@ -11,17 +11,25 @@ metaLinks:
 
 # BSC Block Stream
 
-### What is BSC NewBlocks
+<details>
+
+<summary><strong>What is BSC NewBlocks</strong></summary>
 
 NewBlocks is a high-performance block stream service provided by BlockRazor, used for low-latency subscription to the latest blocks and confirmed transactions. NewBlocks helps users receive the latest block content earlier, and integrates the block header, transaction list, and next validator info into their monitoring or strategy systems with lower latency.
 
 NewBlocks distributes the latest block data based on [BEF](../../../core-technology/blockchain-edge-fabric.md). When a block is generated in the network and begins to propagate, BlockRazor receives the block in multiple core areas as early as possible and then forwards it to subscribers through low-latency links, shortening the time for users to receive block data.
 
-### Scenarios of BSC NewBlocks
+</details>
+
+<details>
+
+<summary><strong>Scenarios of BSC NewBlocks</strong></summary>
 
 * Confirmed Transaction Monitoring: Receives confirmed transactions from the latest block in real time, used to monitor target addresses, popular contracts, or abnormal transaction behavior.
 * Block-level data analysis: Obtaining block headers, transaction lists, and next validator info for block research, node observation, and network state analysis.
 * Strategy data input: Serving as the confirmed data source for the trading system, it works in conjunction with capabilities such as Public Mempool and Transaction Submission to build a more complete monitoring and execution chain.
+
+</details>
 
 ### Benchmark
 

@@ -11,13 +11,17 @@ metaLinks:
 
 # Solana Geyser Stream
 
-### Introduction
+<details>
 
-**What is Geyser Stream**
+<summary><strong>What is Geyser Stream</strong></summary>
 
 Geyser is a plugin mechanism for Solana validators that enables real-time transmission of Solana's account, slot, block, and transaction data to external data storage media. Geyser Stream is a high-performance Solana data streaming service launched by BlockRazor based on the Yellowstone gRPC (Geyser plugin), allowing clients to subscribe to real-time Solana data streams with extremely low latency via the gRPC protocol.
 
-**Applications of Geyser Stream**
+</details>
+
+<details>
+
+<summary><strong>Applications of Geyser Stream</strong></summary>
 
 Transaction Monitoring: Track transactions for specific accounts, ideal for following smart money trades or targeting new token launches on platforms like pump.fun.
 
@@ -25,13 +29,19 @@ Account Balance Tracking: Monitor balance changes in designated accounts, enabli
 
 Block & Slot Insights: Analyze blocks and slots to assess network consensus and health status.
 
-**Key Features of Geyser Stream**
+</details>
+
+<details>
+
+<summary><strong>Key Features of Geyser Stream</strong></summary>
 
 High Performance: Geyser Stream delivers gRPC data streams to clients with ultra-low latency in real time.
 
 Data Integrity: Supports transaction replay for the most recent 500 slots (200 seconds), ensuring seamless data continuity during disconnections.
 
 High Stability: Operates across multiple cloud instances with seamless failover, guaranteeing long-term reliability.
+
+</details>
 
 ### Endpoint
 

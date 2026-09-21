@@ -11,13 +11,36 @@ metaLinks:
 
 # Ethereum Broadcast Tx
 
-### Endpoint
+<details>
 
-<table><thead><tr><th width="160">Region</th><th>Relay Address</th></tr></thead><tbody><tr><td>Frankfurt</td><td>64.130.47.75:50061</td></tr><tr><td>Tokyo</td><td>63.254.162.18:50061</td></tr><tr><td>Virginia</td><td>208.91.105.204:50061</td></tr></tbody></table>
+<summary><strong>What is Broadcast Tx</strong></summary>
+
+Broadcast Tx is a fast transaction sending service provided by BlockRazor to help users send transactions with lower latency. It is part of the Fast ecosystem, but unlike the standard Fast model which requires attaching a tip to the transaction, Broadcast Tx does not require users to pay extra for a tip within the transaction, making it more suitable as a low-barrier, fast sending entry point.
+
+Currently, Broadcast Tx offers methods `SendTx` which are used to send single transactions.
+
+It's important to note that while Broadcast Tx belongs to the Fast ecosystem, it is not equivalent to a private transmission channel with full transaction protection capabilities. Transactions sent via Broadcast Tx still enter the public propagation path and therefore _DO NOT_ have MEV protection capabilities.
+
+</details>
+
+<details>
+
+<summary><strong>In what scenarios should you choose Broadcast Tx</strong></summary>
+
+* No tips needed, lower barrier to entry\
+  Unlike the standard Fast model, Broadcast Tx does not require adding tips to transactions, making it more suitable for users who want to quickly integrate but do not want to modify the transaction incentive structure.
+* Suitable for scenarios where speed is a requirement but MEV protection is not currently emphasized\
+  If your priority is to send transactions out as quickly as possible, rather than hiding transactions or mitigating risks like sandwiches and frontrunnings through private paths, then Broadcast Tx would be a more straightforward option.
+
+</details>
 
 ### Price & Rate Limit
 
 <table><thead><tr><th width="148.92578125">Payment Method</th><th width="241.35546875">Limit</th><th width="197.57421875">Price</th><th>Action</th></tr></thead><tbody><tr><td>Free</td><td><ul><li>TPS：10 Txs / 5s</li><li>Daily Tx Limit：10</li></ul></td><td>Free</td><td>-</td></tr><tr><td>Personalized</td><td><ul><li>TPS：100 Txs / 5s</li><li>Daily Tx Limit：100000</li></ul></td><td>$50 / day<br>$500 / month</td><td><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=ethereum&#x26;serviceId=ethereum_fast_tx&#x26;billing=day" class="button primary small">Subscribe</a></td></tr></tbody></table>
+
+### Endpoint
+
+<table><thead><tr><th width="160">Region</th><th>Relay Address</th></tr></thead><tbody><tr><td>Frankfurt</td><td>64.130.47.75:50061</td></tr><tr><td>Tokyo</td><td>63.254.162.18:50061</td></tr><tr><td>Virginia</td><td>208.91.105.204:50061</td></tr></tbody></table>
 
 ### SendTx
 

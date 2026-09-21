@@ -14,6 +14,14 @@ Powered by BEF technology, the Ultra version delivers ordered block data to your
 
 The solution is purpose-built for latency-sensitive applications, including advanced arbitrage, order flow analysis, and quantitative trading. In an environment where competition is measured in microseconds, earlier access to ordered block data provides more time for strategy computation and transaction execution. Microseconds define the edge.
 
+<details>
+
+<summary><strong>What is the difference between the Node-required Sequencer Feed and the Direct Sequencer Feed?</strong></summary>
+
+<table><thead><tr><th width="127.98828125">Comparison</th><th width="255.9140625">Node-required Sequencer Feed</th><th>Direct Sequencer Feed</th></tr></thead><tbody><tr><td>Access Method</td><td>Must be received through a node</td><td>Clients can connect directly without running a nod</td></tr><tr><td>Block Delivery</td><td>Delivers blocks sequentially by block height without skipping any blocks</td><td>Prioritizes the latest block; intermediate blocks may be skipped during network congestion</td></tr><tr><td>Node State Dependency</td><td>Relies on the node’s low-latency synchronized state</td><td>Does not require a local node to maintain complete and continuous state synchronization</td></tr><tr><td>Deployment Cost</td><td>Requires node deployment, maintenance, and monitoring</td><td>Easy to integrate, with lower operational costs</td></tr><tr><td>Suitable Use Cases</td><td>Backrunning and order flow projects</td><td>Sniping and copy trading</td></tr></tbody></table>
+
+</details>
+
 ### Benchmark
 
 We established WSS connections with both the Robinhood Chain Sequencer Feed and the BlockRazor Sequencer Feed using the same test client. The Robinhood Chain Sequencer Feed endpoint is wss://[feed.mainnet.chain.robinhood.com](http://feed.mainnet.chain.robinhood.com/), and the BlockRazor used the `/ws/ultra` endpoint.
@@ -69,16 +77,6 @@ Across all three Availability Zones, the BlockRazor Sequencer Feed maintained a 
 The difference was most pronounced in `use2-az2`, where the Robinhood Chain Sequencer Feed reached `97.404 ms` at P50, `953.111 ms` at P99, and a maximum relative latency of `1,616.810 ms`.
 
 In summary, the benchmark results show that the BlockRazor Sequencer Feed consistently delivered blocks earlier and with substantially lower relative latency across all three tested Availability Zones. This provides a faster and more stable first-delivery window for latency-sensitive applications and transactions.
-
-### FAQ
-
-<details>
-
-<summary><strong>What is the difference between the Node-required Sequencer Feed and the Direct Sequencer Feed?</strong></summary>
-
-<table><thead><tr><th width="127.98828125">Comparison</th><th width="255.9140625">Node-required Sequencer Feed</th><th>Direct Sequencer Feed</th></tr></thead><tbody><tr><td>Access Method</td><td>Must be received through a node</td><td>Clients can connect directly without running a nod</td></tr><tr><td>Block Delivery</td><td>Delivers blocks sequentially by block height without skipping any blocks</td><td>Prioritizes the latest block; intermediate blocks may be skipped during network congestion</td></tr><tr><td>Node State Dependency</td><td>Relies on the node’s low-latency synchronized state</td><td>Does not require a local node to maintain complete and continuous state synchronization</td></tr><tr><td>Deployment Cost</td><td>Requires node deployment, maintenance, and monitoring</td><td>Easy to integrate, with lower operational costs</td></tr><tr><td>Suitable Use Cases</td><td>Backrunning and order flow projects</td><td>Sniping and copy trading</td></tr></tbody></table>
-
-</details>
 
 ### Price
 

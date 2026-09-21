@@ -11,7 +11,9 @@ metaLinks:
 
 # BSC Public Mempool
 
-### What is BSC Public Mempool
+<details>
+
+<summary><strong>What is BSC Public Mempool</strong></summary>
 
 Public Mempool is a high-performance pending transaction stream based on [BEF](../../../core-technology/blockchain-edge-fabric.md), used for low-latency subscription to unconfirmed transactions in public propagation.
 
@@ -21,13 +23,19 @@ In the EVM network, transactions typically propagate through the mempool before 
 * More time to complete calculations and risk control
 * Higher probability of obtaining a better execution position in competitive scenarios
 
-### Scenarios of BSC Public Mempool
+</details>
+
+<details>
+
+<summary><strong>Scenarios of BSC Public Mempool</strong></summary>
 
 * Pending Transaction Monitoring: Real-time monitoring of publicly distributed pending transactions to identify active addresses, popular contracts, or unusual transaction behavior.
 * Smart Money Tracking: Track transaction activity at target addresses early on, providing signals for copy trading or strategy following.
 * Backrun Discovery: Identifying publicly trades that may trigger backrun opportunities, allowing more time for subsequent strategy evaluation and trade submission.
 * Sniping Opportunities: Capture the first signals in the open market as early as possible when new pools launch, liquidity injections occur, or target trades emerge.
 * Real-time data input for strategies: Serving as a real-time input source for the trading system, it can be used in conjunction with capabilities such as Block Stream, Node Stream, RPC, or Block Builder to build a more complete monitoring and execution project.
+
+</details>
 
 ### Benchmark
 

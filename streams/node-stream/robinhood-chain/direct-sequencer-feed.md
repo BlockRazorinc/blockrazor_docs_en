@@ -12,8 +12,6 @@ Compared with the Node-required Sequencer Feed, the Direct Sequencer Feed does n
 
 Please note that the Direct Sequencer Feed may skip blocks during periods of network congestion.
 
-### FAQ
-
 <details>
 
 <summary><strong>What is the difference between the Node-required Sequencer Feed and the Direct Sequencer Feed?</strong></summary>

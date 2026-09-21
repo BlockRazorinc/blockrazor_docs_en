@@ -11,17 +11,27 @@ metaLinks:
 
 # BSC Full Node Synchronization
 
-### What is Full Node Synchronization
+<details>
+
+<summary><strong>What is Full Node Synchronization</strong></summary>
 
 Full Node Synchronization is a low-latency node synchronization service provided by BlockRazor under Node Stream, which helps users' own BSC full nodes synchronize to the latest blocks and world state faster.
 
-### Why choose Full Node Synchronization
+</details>
+
+<details>
+
+<summary><strong>Why choose Full Node Synchronization</strong></summary>
 
 For many high-frequency trading systems and infrastructure systems, "whether the local node can synchronize to the latest state fast enough" is a common problem. Even if the application logic itself is fast, subsequent strategy judgment, data analysis and trade execution calculation will still be affected by the lagging state.
 
 The advantage of Full Node Synchronization is not just "helping nodes connect to the network," but that it provides a low-latency synchronization method more suitable for production environments for systems that rely on local node state. Unlike simply subscribing to block streams, full node synchronization does not continuously push a set of structured data to users. Instead, it allows users' own full nodes to establish P2P connections directly with BlockRazor's high-performance network nodes, leveraging BlockRazor's [BEF](../../../core-technology/blockchain-edge-fabric.md) to receive the latest blocks and state updates from high-quality nodes more quickly.
 
-### Which users are suitable for Full Node Synchronization
+</details>
+
+<details>
+
+<summary><strong>Which users are suitable for Full Node Synchronization</strong></summary>
 
 * **Quant Team / Trading Bot / Searcher**\
   A quantitative and trading system that relies on the state of local nodes to make strategy judgments, prepare for transactions, or perform on-chain analysis.
@@ -30,6 +40,8 @@ The advantage of Full Node Synchronization is not just "helping nodes connect to
 
 If your goal is simply to obtain confirmed block data with low latency, Block Stream is usually sufficient.\
 If your system needs its local nodes to synchronize with the latest blocks and world state as quickly as possible, then full node synchronization would be more appropriate.
+
+</details>
 
 ### Benchmark
 

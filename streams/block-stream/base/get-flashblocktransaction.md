@@ -11,7 +11,9 @@ metaLinks:
 
 # Base Get FlashBlockTransaction
 
-### What is Base Get FlashBlockTransaction
+<details>
+
+<summary><strong>What is Base Get FlashBlockTransaction</strong></summary>
 
 `Get FlashBlockTransaction` is a real-time FlashBlock transaction data stream provided by BlockRazor for Base, used to retrieve transaction data from FlashBlocks on the Base with lower latency. This interface supports both gRPC and WebSocket protocols, making it suitable for transaction systems, monitoring systems, and real-time processing systems that are more sensitive to data arrival time.
 
@@ -19,13 +21,11 @@ On Base, FlashBlock can be understood as a "sub-block" data stream that occurs b
 
 For trading bots, quantitative strategies, real-time monitoring platforms, and front-end trading applications, waiting for blocks often means longer response times. The value of  `Get FlashBlockTransaction`  is to help the system receive transaction and block change signals earlier, before the block arrives, thus buying more time for subsequent judgment and response.
 
-### FAQ
-
-Both Get FlashBlockStream and Get FlashBlockTransaction subscribe to FlashBlock data, but the key difference lies in the returned data format. Get FlashBlockStream returns binary data, which needs to be parsed into structured data after acquisition; while Get FlashBlockTransaction directly returns structured transaction data.
+</details>
 
 <details>
 
-<summary>What is the difference between <code>Get FlashBlockTransaction</code> and <code>Get FlashBlockStream</code></summary>
+<summary><strong>What is the difference between <code>Get FlashBlockTransaction</code> and <code>Get FlashBlockStream</code></strong></summary>
 
 Both `Get FlashBlockStream` and `Get FlashBlockTransaction` subscribe to FlashBlock data, but the key difference lies in the returned data format. Get FlashBlockStream returns binary data, which needs to be parsed into structured data after acquisition; while Get FlashBlockTransaction directly returns structured transaction data.
 

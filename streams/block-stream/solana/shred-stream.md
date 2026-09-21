@@ -11,25 +11,35 @@ metaLinks:
 
 # Solana Shred Stream
 
-### What is Shred Stream
+<details>
+
+<summary><strong>What is Shred Stream</strong></summary>
 
 Shred Stream is a shred data subscription service provided by BlockRazor for Solana. It has been deployed in multiple regions such as Frankfurt, Amsterdam, Tokyo, and New York, providing users worldwide with lower latency shred distribution capabilities.
 
-### Who is Shred Stream suitable for?
+</details>
+
+<details>
+
+<summary><strong>Who is Shred Stream suitable for?</strong></summary>
 
 * **Validators / RPCs**: For validators and RPC nodes that need to receive Solana Shred as early as possible, Shred Stream can serve as a lower-latency data input source.
 * **Trading Bots:** Trading bots that are highly sensitive to Shred arrival time can leverage Shred Stream to receive Shred earlier, allowing for more response time for subsequent transaction parsing and strategy execution.
 * **DeFi Builders:** For DeFi system builders who need to quickly detect on-chain changes and shorten data processing paths, Shred Stream offers a lower-latency way to obtain on-chain transactions.
 
-### Why choose BlockRazor Shred Stream?
-
-Shred Stream directly connects to high-staking validators in Solana to obtain shreds through [BEF](../../../core-technology/blockchain-edge-fabric.md). It uses UDP to forward data with minimal hops, resulting in a shorter overall link and faster speed, making it suitable for scenarios with extremely low latency requirements for obtaining Solana transaction data.
-
-### FAQ
+</details>
 
 <details>
 
-<summary>After receiving Shreds, how do I perform Shred parsing, and what data can I extract?</summary>
+<summary><strong>Why choose BlockRazor Shred Stream?</strong></summary>
+
+Shred Stream directly connects to high-staking validators in Solana to obtain shreds through [BEF](../../../core-technology/blockchain-edge-fabric.md). It uses UDP to forward data with minimal hops, resulting in a shorter overall link and faster speed, making it suitable for scenarios with extremely low latency requirements for obtaining Solana transaction data.
+
+</details>
+
+<details>
+
+<summary><strong>After receiving Shreds, how do I perform Shred parsing, and what data can I extract?</strong></summary>
 
 Shred Stream receives raw shred streams from the Solana network and cannot be used directly as structured transaction or block data. It typically requires 3 steps: receiving, recovering, and parsing, to extract usable transaction content.
 
@@ -48,7 +58,7 @@ After completing this process, you can usually obtain the following information:
 
 <details>
 
-<summary>What is the difference between Shred Stream and Geyser Stream?</summary>
+<summary><strong>What is the difference between Shred Stream and Geyser Stream?</strong></summary>
 
 The core difference between the two lies in their data layer and ease of use. Shred Stream transmits lower-level raw shred data, resulting in shorter transmission chains and lower latency, making it suitable for bots, RPCs, and validators with extremely high timeliness requirements. However, the receiving party needs to perform reassembly and parsing themselves.&#x20;
 

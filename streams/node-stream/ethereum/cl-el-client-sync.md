@@ -12,19 +12,29 @@ metaLinks:
 
 # Ethereum CL/EL Client Sync
 
-### What is CL/EL client sync?
+<details>
+
+<summary><strong>What is CL/EL client sync?</strong></summary>
 
 CL/EL client sync is a low-latency node synchronization capability designed by BlockRazor for Ethereum node architecture in the Node Stream scenario, used to help users synchronize their own Ethereum nodes with the latest world state faster.
 
 Unlike BSC full node synchronization, which primarily targets a single EVM execution node, Ethereum adopted a CL/EL dual-client architecture after The Merge. Therefore, Ethereum's Node Stream not only enables EL to execute new blocks faster, but also allows CL to keep up with the correct head, safe/finalized blocks, and consensus layer messages more quickly.
 
-### Why choose CL/EL client sync?
+</details>
+
+<details>
+
+<summary><strong>Why choose CL/EL client sync?</strong></summary>
 
 For many high-frequency trading systems, searchers, quantitative strategies, and infrastructure teams, a core issue is whether the local Ethereum node can synchronize the latest head, execute the latest block, and update the world state quickly enough. Even if the strategy system, matching logic, or transaction construction itself is fast, if the chain head or state seen by the local node is lagging behind, subsequent strategy judgments, simulations, risk control, transaction replacements, and execution decisions will still be affected.
 
 The value of CL/EL client synchronization is not just "helping nodes connect to the network," but also providing a lower latency and more stable synchronization entry point for production systems that rely on the state of local Ethereum nodes, reducing the impact of synchronization lag of local nodes in strategy judgment, trading simulation, and MEV scenarios on trading and analysis systems.
 
-### Which users are suitable for CL/EL client sync
+</details>
+
+<details>
+
+<summary><strong>Which users are suitable for CL/EL client sync</strong></summary>
 
 * **Quant Team / Trading Bot / Searcher**\
   A quantitative and trading system that relies on the state of local nodes to make strategy judgments, prepare for transactions, or perform on-chain analysis.
@@ -33,6 +43,8 @@ The value of CL/EL client synchronization is not just "helping nodes connect to 
 
 If your goal is simply to obtain confirmed block data with low latency, Block Stream is usually sufficient.\
 If your system needs its local nodes to synchronize with the latest blocks and world state as quickly as possible, then CL/EL client sync would be more appropriate.
+
+</details>
 
 ### Price
 

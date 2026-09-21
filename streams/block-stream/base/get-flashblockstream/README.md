@@ -11,7 +11,9 @@ metaLinks:
 
 # Base Get FlashBlockStream
 
-### What is Base Get FlashBlockStream
+<details>
+
+<summary><strong>What is Base Get FlashBlockStream</strong></summary>
 
 `Get FlashBlockStream` is a real-time FlashBlock data subscription interface provided by BlockRazor for Base, used to obtain earlier stages of block data on Base with lower latency. This interface supports both gRPC and WebSocket protocols, making it suitable for trading systems, and monitoring systems that are more sensitive to data arrival time.
 
@@ -19,15 +21,19 @@ On Base, FlashBlock can be understood as a "sub-block" data stream that occurs b
 
 For trading bots, quantitative strategies, real-time monitoring platforms, and front-end trading applications, waiting for blocks often means longer response times. The value of Get FlashBlockStream is to help the system receive transaction and block change signals earlier, before the block arrives, thus buying more time for subsequent judgment and response.
 
-### Why choose Base Get FlashBlockStream
-
-BlockRazor, based on [BEF](../../../../core-technology/blockchain-edge-fabric.md), provides access points to multiple regions on Base, including Frankfurt, Virginia, and Tokyo. According to [Base Benchmark](https://blockrazor.io/zh/blog/20250922basebenchmark/), BlockRazor demonstrates an advantage over the official Base service in FlashBlock reception latency across multiple regions, with a particularly significant lead in the mid-to-high percentile range.
-
-### FAQ
+</details>
 
 <details>
 
-<summary>What is the difference between Get BlockStream and Get FlashBlockStream</summary>
+<summary><strong>Why choose Base Get FlashBlockStream</strong></summary>
+
+BlockRazor, based on [BEF](../../../../core-technology/blockchain-edge-fabric.md), provides access points to multiple regions on Base, including Frankfurt, Virginia, and Tokyo. According to [Base Benchmark](https://blockrazor.io/zh/blog/20250922basebenchmark/), BlockRazor demonstrates an advantage over the official Base service in FlashBlock reception latency across multiple regions, with a particularly significant lead in the mid-to-high percentile range.
+
+</details>
+
+<details>
+
+<summary><strong>What is the difference between Get BlockStream and Get FlashBlockStream</strong></summary>
 
 The core difference between the two lies in the different data granularity, time points, and applicable scenarios.
 
@@ -37,6 +43,14 @@ The core difference between the two lies in the different data granularity, time
   Used to retrieve FlashBlock data on Base. FlashBlock is a "sub-block" of data pushed by Base approximately every 200ms, providing pre-confirmation information for transactions much earlier than the standard 2-second formal block time. It is more suitable for scenarios that are more sensitive to low latency and want to see on-chain changes as early as possible.
 
 </details>
+
+### Price
+
+The price is $25 / stream / day and $250 / stream / month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_flashblock&#x26;billing=day" class="button primary small">Subscribe</a>
+
+{% hint style="info" %}
+The number of data streams that can be subscribed to is calculated on a shared basis across all regions. For example, if you purchase one stream, you can only subscribe in one region; you will not be able to subscribe in other regions.
+{% endhint %}
 
 ### Endpoint
 
@@ -49,14 +63,6 @@ The core difference between the two lies in the different data granularity, time
 <table><thead><tr><th width="118.8203125">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Frankfurt</td><td>ws://frankfurt.base.blockrazor.xyz:81/ws</td></tr><tr><td>Virginia</td><td>ws://virginia.base.blockrazor.xyz:81/ws</td></tr><tr><td>Tokyo</td><td>ws://tokyo.base.blockrazor.xyz:81/ws</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
-
-### Price
-
-The price is $25 / stream / day and $250 / stream / month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_flashblock&#x26;billing=day" class="button primary small">Subscribe</a>
-
-{% hint style="info" %}
-The number of data streams that can be subscribed to is calculated on a shared basis across all regions. For example, if you purchase one stream, you can only subscribe in one region; you will not be able to subscribe in other regions.
-{% endhint %}
 
 ### Request Example
 

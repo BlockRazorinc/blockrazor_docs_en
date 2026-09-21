@@ -14,8 +14,6 @@ Powered by BEF technology, the Ultra version provides access to the latest block
 
 The solution is purpose-built for advanced sniping and copy-trading strategies where timing is critical. It enables trading systems to capture on-chain activity earlier and secure valuable time for strategy computation and transaction execution—turning every microsecond into a competitive advantage.
 
-### FAQ
-
 <details>
 
 <summary><strong>What is the difference between the Node-required Sequencer Feed and the Direct Sequencer Feed?</strong></summary>

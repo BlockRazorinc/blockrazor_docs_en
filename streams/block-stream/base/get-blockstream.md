@@ -11,19 +11,25 @@ metaLinks:
 
 # Base Get BlockStream
 
-### What is Base Get BlockStream
+<details>
+
+<summary><strong>What is Base Get BlockStream</strong></summary>
 
 `Get BlockStream` is a real-time block data subscription interface provided by BlockRazor for Base, used to continuously retrieve the latest generated block data on Base in a low-latency manner. This interface is based on the gRPC protocol and is suitable for trading systems and infrastructure systems that need to continuously consume block data.
 
-### Why choose Base Get BlockStream
-
-For trading systems and infrastructure systems, the ability to acquire block data is not just about "getting new blocks," but also about the timeliness of receiving in different regions, the stability of data links, and overall performance under long-term operation. BlockRazor, based on [BEF](../../../core-technology/blockchain-edge-fabric.md), provides access points to multiple regions such as Frankfurt, Virginia, and Tokyo on Base. According to [Base Benchmark](https://blockrazor.io/zh/blog/20250922basebenchmark/), BlockRazor demonstrates an advantage over Base's official service in block reception latency across multiple regions, with a particularly significant lead in the mid-to-high percentile range.
-
-### FAQ
+</details>
 
 <details>
 
-<summary>What is the difference between Get BlockStream and Get FlashBlockStream</summary>
+<summary><strong>Why choose Base Get BlockStream</strong></summary>
+
+For trading systems and infrastructure systems, the ability to acquire block data is not just about "getting new blocks," but also about the timeliness of receiving in different regions, the stability of data links, and overall performance under long-term operation. BlockRazor, based on [BEF](../../../core-technology/blockchain-edge-fabric.md), provides access points to multiple regions such as Frankfurt, Virginia, and Tokyo on Base. According to [Base Benchmark](https://blockrazor.io/zh/blog/20250922basebenchmark/), BlockRazor demonstrates an advantage over Base's official service in block reception latency across multiple regions, with a particularly significant lead in the mid-to-high percentile range.
+
+</details>
+
+<details>
+
+<summary><strong>What is the difference between Get BlockStream and Get FlashBlockStream</strong></summary>
 
 The core difference between the two lies in the different data granularity, time points, and applicable scenarios.
 
@@ -178,17 +184,13 @@ service BaseApi {
 }
 ```
 
-
-
-## Response
+### Response
 
 **Normal**
 
 ```go
 Number=35347872, Hash=0x1c1dd5911cf8fe47c227159f5e3dad08d289879a225b6d51840f4ecd0b212dd8, TransactionCount=252
 ```
-
-
 
 **Abnormal**
 

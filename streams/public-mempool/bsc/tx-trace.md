@@ -11,19 +11,27 @@ metaLinks:
 
 # BSC Public Mempool Tx Trace
 
-### What is BSC Tx Trace
+<details>
+
+<summary><strong>What is BSC Tx Trace</strong></summary>
 
 Tx Trace is a transaction propagation path observation tool provided by BlockRazor, used to query the propagation path, arrival time, and cross-regional latency distribution of a specified transaction in the global network.
 
 For transaction systems, many issues cannot be determined solely from on-chain receipts. For example, although a transaction may be successfully included on-chain, the region where it first appeared and the time it took to propagate between different regions cannot be directly observed from the on-chain results alone. Based on [BEF](../../../core-technology/blockchain-edge-fabric.md), Tx Trace helps users observe transaction behavior from a perspective closer to the network propagation layer, transforming "latency issues" or "regional difference issues" that previously relied solely on experience into data issues that can be analyzed.
 
-### Scenarios of BSC Tx Trace
+</details>
+
+<details>
+
+<summary><strong>Scenarios of BSC Tx Trace</strong></summary>
 
 **Transaction delay troubleshooting**: When transaction sending results are abnormal, performance is unstable, or the actual execution result is inconsistent with expectations, Tx Trace can be used to view the propagation path and time difference of the transaction in the global network, which can help determine whether the problem lies in the network propagation process.
 
 Multi-region deployment evaluation: When a team deploys a bot or sending services in multiple regions, it can use Tx Trace to compare the entry time and propagation effect of transactions in different regions, and evaluate whether the current deployment truly brings better network coverage and propagation performance.
 
 High-frequency trading path optimization: For trading systems that rely on timing and speed, Tx Trace can be used to analyze the spread of trading in different regions, providing a reference for path optimization.
+
+</details>
 
 ### Price & Rate Limit
 

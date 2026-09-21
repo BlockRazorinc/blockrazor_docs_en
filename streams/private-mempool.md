@@ -10,13 +10,19 @@ metaLinks:
 
 # BSC Private Mempool
 
-### What is BSC Private Mempool
+<details>
+
+<summary><strong>What is BSC Private Mempool</strong></summary>
 
 BSC Private Mempool is a private pending transaction service provided by BlockRazor, used to obtain private orderflow from BlockRazor RPC.
 
 Unlike Public Mempool, which subscribes to pending transactions in public distribution, Private Mempool focuses on private transaction data that hasn't entered the public distribution path. This data is pushed via the SSE protocol, allowing users to directly parse, filter, and process it within their strategy systems. Private Mempool performs uniform anonymization on transaction content, disclosing only the transaction fields authorized for public access. This balances data privacy with the retention of critical information needed for strategy analysis.
 
-### Scenarios of BSC Private Mempool
+</details>
+
+<details>
+
+<summary><strong>Scenarios of BSC Private Mempool</strong></summary>
 
 Private Mempool is suitable for users who want to monitor, judge, and execute strategies around private orderflows. Common scenarios include backrunning, copy trading, and sniping.
 
@@ -24,11 +30,17 @@ Private Mempool is suitable for users who want to monitor, judge, and execute st
 * **Copy Trading**: When target addresses, strategy accounts, or specific types of transactions appear in the private orderflow, users can identify these copy trading signals earlier and build follow strategies around actions such as buying, selling, adding to positions, or adjusting positions.
 * Sniping: Identify key signals from private orderflow as early as possible when new pools are created, liquidity is injected, tokens open, or specific target trades are about to trigger market changes, providing an earlier response window for quick entry, signal following, and other timing-sensitive strategies.
 
-### Why choose BSC Private Mempool?
+</details>
+
+<details>
+
+<summary><strong>Why choose BSC Private Mempool?</strong></summary>
 
 In the BSC scenario, many high-value transactions do not appear in the public Mempool, but are instead included via a private routing provided by BlockRazor RPC. For users who want to build strategies around these transactions, waiting until the transactions are finally included to capture signals often means missing more valuable processing opportunities.
 
 Private Mempool relies on [BEF](../core-technology/blockchain-edge-fabric.md) to provide users in different regions with access to private orderflow, enabling users to conduct earlier analysis and decisions based on the private transactions.
+
+</details>
 
 ### Quick Start
 
