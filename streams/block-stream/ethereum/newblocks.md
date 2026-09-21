@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the services, application scenarios, and integration
-  methods of BlockRazor Ethereum NewBlocks.
+  Explore the services, application scenarios, benchmark data, price, endpoint,
+  and integration methods of BlockRazor Ethereum NewBlocks stream.
 metaLinks:
   canonical: newblocks.md
   alternates:

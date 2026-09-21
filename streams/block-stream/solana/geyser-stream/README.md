@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the services, application scenarios, key features, and
-  integration methods of BlockRazor Solana Geyser Stream.
+  Explore the services, application scenarios, key features, pricing, endpoint
+  and integration guides of BlockRazor Solana Geyser Stream.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/solana/geyser-stream
 ---
 
-# Solana Geyser Stream
+# Solana Geyser Stream Integration
 
 <details>
 
@@ -43,10 +43,6 @@ High Stability: Operates across multiple cloud instances with seamless failover,
 
 </details>
 
-### Endpoint
-
-<table><thead><tr><th width="171.8828125">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Tokyo</td><td>geyserstream-tokyo.blockrazor.xyz:443</td></tr></tbody></table>
-
 ### Pricing
 
 {% hint style="info" %}
@@ -55,7 +51,11 @@ Geyser Stream charges based on monthly data usage, with the price remaining cons
 
 <table data-search="false"><thead><tr><th width="210.109375">Periodic Data Allowance</th><th width="136.5546875">Discount</th><th>Price / Cycle</th></tr></thead><tbody><tr><td>5 TiB</td><td>100%</td><td>$250</td></tr><tr><td>10 TiB</td><td>100%</td><td>$500</td></tr><tr><td>50 TiB</td><td>100%</td><td>$2500</td></tr><tr><td>100 TiB</td><td>95%</td><td>$4750</td></tr><tr><td>150 TiB</td><td>90%</td><td>$6750</td></tr><tr><td>200 TiB</td><td>85%</td><td>$8500</td></tr><tr><td>250 TiB</td><td>80%</td><td>$10000</td></tr></tbody></table>
 
-#### Procurement Instructions
+### Endpoint
+
+<table><thead><tr><th width="171.8828125">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Tokyo</td><td>geyserstream-tokyo.blockrazor.xyz:443</td></tr></tbody></table>
+
+### Procurement Instructions
 
 <table><thead><tr><th width="101.15625"></th><th>New procurement</th><th>Renewal</th><th>Add periodic data allowance</th></tr></thead><tbody><tr><td>Scene</td><td>Geyser Stream for initial purchase or repurchase after traffic expires</td><td>Renew your subscription within the Geyser Stream traffic period</td><td>The Geyser Stream cycle data allowance was exhausted prematurely and needs to be replenished.</td></tr><tr><td>Result</td><td>Periodic traffic is generated based on the procurement duration.</td><td>Delayed traffic cycle</td><td>The validity period will not be extended; only the data allowance within the period will be increased.</td></tr><tr><td>Example</td><td><p></p><p>If a new 5 TiB cycle is purchased, the available flow rate will be:</p><ul><li>Starting cycle: 5 Tib</li></ul></td><td><p></p><p>If you purchase 5 TiB for one cycle and renew for one cycle within the initial cycle, the available traffic will be:</p><ul><li>Starting cycle: 5 TiB</li><li>Period 2: 10 Tib</li></ul></td><td><p></p><p>5 TiB was purchased for one cycle, and 10 TiB was renewed for another cycle. During the initial cycle, the data was found to be exhausted. Therefore, an additional 5 TiB was selected to be added to the initial cycle.</p><ul><li>Starting cycle: 5 Tib + 5 Tib</li><li>Period 2: 10 Tib</li></ul></td></tr></tbody></table>
 

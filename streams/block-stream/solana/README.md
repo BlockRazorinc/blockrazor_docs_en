@@ -1,12 +1,12 @@
 ---
 description: >-
-  This section introduces BlockRazor's Block Stream services for Solana,
-  primarily Shred Stream and Geyser Stream.
+  Explore BlockRazor's Block Stream services for Solana, primarily Shred Stream
+  and Geyser Stream.
 metaLinks:
   canonical: ./
   alternates:
     - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/solana
 ---
 
-# Solana Block Stream
+# Solana Block Streams: Shred & Geyser
 

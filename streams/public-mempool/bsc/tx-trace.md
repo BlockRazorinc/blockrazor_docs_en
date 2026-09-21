@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the services, application scenarios, and integration
-  methods of BlockRazor BSC Public Mempool Tx Trace.
+  Explore the services, application scenarios, price, rate limit, endpoint, and
+  integration methods of BlockRazor BSC Public Mempool Tx Trace.
 metaLinks:
   canonical: tx-trace.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/public-mempool/bsc/tx-trace
 ---
 
-# BSC Public Mempool Tx Trace
+# BSC Public Mempool Tx Trace Integration Guide
 
 <details>
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces services, price and integration methods of the
-  BlockRazor Robinhood Chain Direct Sequencer Feed.
+  Explore the services, price, endpoint, and integration guide of the BlockRazor
+  Robinhood Chain Direct Sequencer Feed(Ultra).
 ---
 
 # Robinhood Chain Direct Sequencer Feed(Ultra)

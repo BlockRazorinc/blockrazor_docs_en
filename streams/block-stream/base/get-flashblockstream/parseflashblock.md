@@ -1,5 +1,5 @@
 ---
-description: Introduction to the method to parse BlockRazor Base FlashBlock
+description: Get the code example to parse FlashBlock stream provided by BlockRazor
 metaLinks:
   canonical: parseflashblock.md
   alternates:

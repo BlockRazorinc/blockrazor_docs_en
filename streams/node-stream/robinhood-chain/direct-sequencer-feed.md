@@ -1,10 +1,10 @@
 ---
 description: >-
-  This section introduces services, price and integration methods of the
-  BlockRazor Robinhood Chain Direct Sequencer Feed.
+  Explore the services, price, endpoint and integration guide of the BlockRazor
+  Robinhood Chain Direct Sequencer Feed.
 ---
 
-# Robinhood Chain Direct Sequencer Feed
+# Robinhood Chain Direct Sequencer Feed Integration Guide
 
 ### What Is the Direct Sequencer Feed?
 

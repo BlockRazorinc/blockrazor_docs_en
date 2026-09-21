@@ -1,5 +1,5 @@
 ---
-description: Introducing the JS request methods of BlockRazor Solana Geyser Stream
+description: Use this JS example to subscribe to Solana Geyser Stream of BlockRazor
 metaLinks:
   canonical: js.md
   alternates:
@@ -7,7 +7,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/solana/geyser-stream/js
 ---
 
-# Solana Geyser Stream JS Subscription Example
+# Solana Geyser Stream JS Example
 
 ### Quick Start
 

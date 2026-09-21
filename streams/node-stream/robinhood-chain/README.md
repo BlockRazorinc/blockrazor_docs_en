@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces BlockRazor's Node Stream service for Robinhood Chain,
-  primarily Sequencer Feed.
+  Explore BlockRazor's Node Stream service for Robinhood Chain, primarily
+  Node-required Sequencer Feed and Direct Sequencer Feed.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,5 +9,5 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/node-stream/robinhood-chain
 ---
 
-# Robinhood Chain Sequencer Feed
+# Robinhood Chain Sequencer Feed Integration Guide
 

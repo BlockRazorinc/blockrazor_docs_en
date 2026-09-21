@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to the BlockRazor Base Get FlashBlockTransaction service and its
-  access methods
+  Explore the BlockRazor Base Get FlashBlockTransaction service, advantage,
+  endpoint, price, and integration guide.
 metaLinks:
   canonical: get-flashblocktransaction.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/base/get-flashblocktransaction
 ---
 
-# Base Get FlashBlockTransaction
+# Base Get FlashBlockTransaction Integration Guide
 
 <details>
 
@@ -31,6 +31,14 @@ Both `Get FlashBlockStream` and `Get FlashBlockTransaction` subscribe to FlashBl
 
 </details>
 
+### Price
+
+The price is $25 / stream / day and $250 / stream / month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_flashblock&#x26;billing=day" class="button primary small">Subscribe</a>
+
+{% hint style="info" %}
+The number of data streams that can be subscribed to is calculated on a shared basis across all regions. For example, if you purchase one stream, you can only subscribe in one region; you will not be able to subscribe in other regions.
+{% endhint %}
+
 ### Endpoint
 
 {% tabs %}
@@ -42,14 +50,6 @@ Both `Get FlashBlockStream` and `Get FlashBlockTransaction` subscribe to FlashBl
 <table><thead><tr><th width="139.7421875">地區</th><th>端點</th></tr></thead><tbody><tr><td>法蘭克福</td><td>ws://frankfurt.base.blockrazor.xyz:81/ws</td></tr><tr><td>弗吉尼亞</td><td>ws://virginia.base.blockrazor.xyz:81/ws</td></tr><tr><td>日本</td><td>ws://tokyo.base.blockrazor.xyz:81/ws</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
-
-### Price
-
-The price is $25 / stream / day and $250 / stream / month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_flashblock&#x26;billing=day" class="button primary small">Subscribe</a>
-
-{% hint style="info" %}
-The number of data streams that can be subscribed to is calculated on a shared basis across all regions. For example, if you purchase one stream, you can only subscribe in one region; you will not be able to subscribe in other regions.
-{% endhint %}
 
 ### Request Example
 
@@ -313,7 +313,7 @@ service BaseApi {
 
 ### Response Example
 
-Normal
+**Normal**
 
 {% tabs %}
 {% tab title="Websocket" %}
@@ -333,7 +333,7 @@ type:"0x2"  chain_id:"0x2105"  nonce:"0x1bdf78"  gas:"0x3d0900"  max_fee_per_gas
 {% endtab %}
 {% endtabs %}
 
-Abnormal
+**Abnormal**
 
 {% tabs %}
 {% tab title="Websocket" %}

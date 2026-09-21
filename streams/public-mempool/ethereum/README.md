@@ -1,7 +1,5 @@
 ---
-description: >-
-  Introducing the BlockRazor Ethereum Stream service, primarily a Public
-  Mempool.
+description: Explorer Ethereum Public Mempool to see the Integration Guide
 metaLinks:
   canonical: ./
   alternates:
@@ -9,5 +7,5 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/public-mempool/ethereum
 ---
 
-# Ethereum Mempool
+# Ethereum Public Mempool
 

@@ -1,14 +1,14 @@
 ---
 description: >-
-  Introducing BlockRazor's Streams, the capabilities Streams provide, and how to
-  choose a Stream.
+  Explore BlockRazor's real-time block streams, the capabilities it provides,
+  the method to choose suitable streams, quick start, and FAQ
 metaLinks:
   canonical: overview.md
   alternates:
     - https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/overview
 ---
 
-# Streams Overview
+# Real-Time Blockchain Block Streams
 
 ### What are Streams
 

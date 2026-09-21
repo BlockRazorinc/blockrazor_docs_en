@@ -1,5 +1,5 @@
 ---
-description: Introducing the CLI request methods of BlockRazor Solana Geyser Stream
+description: Use this CLI example to subscribe to Solana Geyser Stream of BlockRazor
 metaLinks:
   canonical: cli.md
   alternates:
@@ -7,7 +7,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/solana/geyser-stream/cli
 ---
 
-# Solana Geyser Stream CLI Subscription Example
+# Solana Geyser Stream CLI Example
 
 ### Quick Start
 

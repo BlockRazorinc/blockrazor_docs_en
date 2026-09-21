@@ -1,5 +1,5 @@
 ---
-description: Introducing the Go request methods of BlockRazor Solana Geyser Stream
+description: Use this go example to subscribe to Solana Geyser Stream of BlockRazor
 metaLinks:
   canonical: go.md
   alternates:
@@ -7,7 +7,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/solana/geyser-stream/go
 ---
 
-# Solana Geyser Stream Go Subscription Example
+# Solana Geyser Stream Go Example
 
 ### Quick Start
 

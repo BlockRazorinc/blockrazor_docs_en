@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing the BlockRazor Base Get FlashBlockStream service, its advantages,
-  and how to access it.
+  Explore the BlockRazor Base Get FlashBlockStream service, advantage, endpoint,
+  price, and integration guide.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/base/get-flashblockstream
 ---
 
-# Base Get FlashBlockStream
+# Base Get FlashBlockStream Integration Guide
 
 <details>
 

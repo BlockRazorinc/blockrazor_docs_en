@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces benchmark, price and integration methods of the
-  BlockRazor Robinhood Chain Node-required Sequencer Feed.
+  Explore the services, advantages, benchmark, price, endpoint and integration
+  methods of the BlockRazor Node-required Sequencer Feed.
 metaLinks:
   canonical: sequencer-feed.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/node-stream/robinhood-chain/sequencer-feed
 ---
 
-# Robinhood Chain Node-required Sequencer Feed
+# Robinhood Chain Node-required Sequencer Feed Integration Guide
 
 <details>
 

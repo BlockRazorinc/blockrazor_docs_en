@@ -1,10 +1,10 @@
 ---
 description: >-
-  This section introduces benchmark, price and integration methods of the
-  BlockRazor Robinhood Chain Node-required Sequencer Feed(Ultra).
+  Explore the services, benchmark, price, endpoint and integration methods of
+  the BlockRazor Node-required Sequencer Feed(Ultra).
 ---
 
-# Robinhood Chain Node-required Sequencer Feed(Ultra)
+# Robinhood Chain Node-required Sequencer Feed(Ultra) Integration Guide
 
 ### What is Node-required Sequencer Feed(Ultra)
 

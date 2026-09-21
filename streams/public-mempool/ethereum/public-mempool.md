@@ -1,6 +1,6 @@
 ---
 description: >-
-  This section introduces the services, application scenarios, and access
+  Explore the services, application scenarios, price, endpoint, and access
   methods of the BlockRazor Ethereum Public Mempool.
 metaLinks:
   canonical: public-mempool.md
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/public-mempool/ethereum/public-mempool
 ---
 
-# Ethereum Public Mempool
+# Ethereum Public Mempool Stream Integration Guide
 
 <details>
 

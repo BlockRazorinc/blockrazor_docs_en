@@ -1,8 +1,7 @@
 ---
 description: >-
-  This section introduces the services, advantages, target users, and
-  integration methods of the BlockRazor Ethereum CL/EL client synchronization
-  feature.
+  Explore the services, advantages, target users, price, endpoints and
+  integration guide of the BlockRazor Ethereum CL/EL client synchronization.
 metaLinks:
   canonical: cl-el-client-sync.md
   alternates:

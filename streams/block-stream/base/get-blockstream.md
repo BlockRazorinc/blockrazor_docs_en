@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing the BlockRazor Base Get BlockStream service, its advantages, and
-  how to integrate it.
+  Explore the BlockRazor Base Get BlockStream service, advantage, endpoint,
+  price, and integration guide.
 metaLinks:
   canonical: get-blockstream.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/base/get-blockstream
 ---
 
-# Base Get BlockStream
+# Base Get BlockStream Integration Guide
 
 <details>
 
@@ -40,14 +40,6 @@ The core difference between the two lies in the different data granularity, time
 
 </details>
 
-### Endpoint
-
-{% tabs %}
-{% tab title="gRPC" %}
-<table><thead><tr><th width="138.33984375">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Frankfurt</td><td>frankfurt.grpc.base.blockrazor.xyz:80</td></tr><tr><td>Virginia</td><td>virginia.grpc.base.blockrazor.xyz:80</td></tr><tr><td>Tokyo</td><td>tokyo.grpc.base.blockrazor.xyz:80</td></tr></tbody></table>
-{% endtab %}
-{% endtabs %}
-
 ### Price
 
 The price is $30 / stream / day and $300 / stream / month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_blockstream&#x26;billing=day" class="button primary small">Subscribe</a>
@@ -55,6 +47,14 @@ The price is $30 / stream / day and $300 / stream / month. <a href="https://bloc
 {% hint style="info" %}
 The number of data streams that can be subscribed to is calculated on a shared basis across all regions. For example, if you purchase one stream, you can only subscribe in one region; you will not be able to subscribe in other regions.
 {% endhint %}
+
+### Endpoint
+
+{% tabs %}
+{% tab title="gRPC" %}
+<table><thead><tr><th width="138.33984375">Region</th><th>Endpoint</th></tr></thead><tbody><tr><td>Frankfurt</td><td>frankfurt.grpc.base.blockrazor.xyz:80</td></tr><tr><td>Virginia</td><td>virginia.grpc.base.blockrazor.xyz:80</td></tr><tr><td>Tokyo</td><td>tokyo.grpc.base.blockrazor.xyz:80</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
 
 ### Request Example
 

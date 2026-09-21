@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section introduces BlockRazor's Block Stream service for Ethereum,
-  primarily NewBlocks.
+description: Explore BlockRazor's Block Stream service for Ethereum, primarily NewBlocks.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,5 +7,5 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/streams/block-stream/ethereum
 ---
 
-# Ethereum Block Stream
+# Ethereum Block Stream: NewBlocks
 
