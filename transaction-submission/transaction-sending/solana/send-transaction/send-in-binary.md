@@ -1,7 +1,8 @@
 ---
 description: >-
-  Introduce the integration of 'Send Transaction in Binary' in BlockRazor Solana
-  Transaction Sending mode
+  Learn the integration of 'Send Transaction in Binary' in BlockRazor Solana
+  Transaction Sending mode. See endpoints, request example and request
+  parameter.
 metaLinks:
   canonical: send-in-binary.md
   alternates:

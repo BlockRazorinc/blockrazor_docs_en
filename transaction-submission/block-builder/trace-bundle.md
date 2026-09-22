@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to Trace Bundle of BlockRazor Block Builder and integration
-  methods
+  Use the BlockRazor BSC Block Builder Trace Bundle API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: trace-bundle.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/block-builder/trace-bundle
 ---
 
-# BSC Block Builder Trace Bundle
+# BSC Block Builder Trace Bundle API Reference
 
 ### Introduction
 

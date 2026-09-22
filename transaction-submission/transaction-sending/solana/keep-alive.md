@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing the Keep Alive integration method of BlockRazor Solana Transaction
-  Sending mode
+  Explore the Keep Alive integration method of BlockRazor Solana Transaction
+  Sending mode.
 metaLinks:
   canonical: keep-alive.md
   alternates:

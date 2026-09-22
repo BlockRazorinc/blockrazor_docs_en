@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing the integration method of BlockRazor Solana's Send Batch in
-  Transaction Sending mode.
+  Use the BlockRazor Solana Send Batch API. Review the endpoint, transaction
+  construction example, and request parameter.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/solana/send-batch
 ---
 
-# Solana Send Batch
+# Solana Send Batch API Reference
 
 {% hint style="warning" %}
 Solana's batch sending service is not bound to the subscription plan, with rate limit default to 3 TPS. API key could be required from [Authentication](../../../../get-started/authentication.md). If you need to increase the TPS limit, please [contact](https://discord.com/invite/qqJuwRb8Nh) us and we will handle it as soon as possible.

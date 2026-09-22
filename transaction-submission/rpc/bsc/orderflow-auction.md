@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduce how Seachers can integrate BlockRazor BSC RPC’s `eth_sendMevBundle`
-  method.
+  Learn how Seachers can integrate BlockRazor BSC RPC’s `eth_sendMevBundle`
+  method. See auction mechanism, rpc endpoint, integration methods and FAQ.
 metaLinks:
   canonical: orderflow-auction.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc/orderflow-auction
 ---
 
-# BSC RPC Orderflow Auction
+# BSC RPC Orderflow Auction for Searchers
 
 ### Introduction
 

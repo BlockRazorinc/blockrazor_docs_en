@@ -1,8 +1,7 @@
 ---
 description: >-
-  BlockRazor BSC RPC provides standard JSON-RPC access with private transaction
-  routing, MEV protection, low-latency inclusion, and real-time backrun rebates
-  on BNB Smart Chain.
+  Explore BlockRazor BSC RPC with private transaction routing, MEV protection,
+  low-latency inclusion, and real-time backrun rebates. See endpoints and setup.
 metaLinks:
   canonical: ./
   alternates:
@@ -10,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc
 ---
 
-# BSC RPC
+# BSC RPC: MEV Protection & Backrun Refund
 
 ### What Is BSC RPC
 

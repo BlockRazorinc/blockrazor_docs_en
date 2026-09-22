@@ -1,5 +1,5 @@
 ---
-description: This page describes how to build and send Solana transactions using Rust
+description: Use this Rust example to build and send Solana transactions with BlockRazor.
 metaLinks:
   canonical: rust.md
   alternates:

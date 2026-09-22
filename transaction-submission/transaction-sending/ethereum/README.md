@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to BlockRazor Ethereum Transaction Sending Mode and API
-  Integration Documentation
+  Explore BlockRazor Ethereum Transaction Sending Mode and API Integration
+  Documentation, primarily Broadcast Tx. See the full developer guide.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,5 +9,5 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/ethereum
 ---
 
-# Ethereum Transaction Sending
+# Ethereum Transaction Sending: Broadcast Tx
 

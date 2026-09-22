@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces an example of a Send Batch request in BlockRazor
-  Solana Transaction Sending mode.
+  Follow a complete Solana Send Batch Request Example request example for
+  BlockRazor.
 metaLinks:
   canonical: ./
   alternates:

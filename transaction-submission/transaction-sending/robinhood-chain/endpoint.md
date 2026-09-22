@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to the endpoints of BlockRazor Robinhood Chain Transaction
-  Sending
+  Explore Robinhood Chain Transaction Sending Endpoint, view regions and request
+  urls.
 metaLinks:
   canonical: endpoint.md
   alternates:

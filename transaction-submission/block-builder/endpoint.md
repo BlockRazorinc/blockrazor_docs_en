@@ -1,9 +1,12 @@
 ---
+description: >-
+  Find BlockRazor BSC Block Builder endpoints, compare default access, regional
+  optimization and fast submit.
 metaLinks:
   canonical: endpoint.md
 ---
 
-# Block Builder Endpoint
+# BSC Block Builder Endpoint
 
 ### **Default Access**
 

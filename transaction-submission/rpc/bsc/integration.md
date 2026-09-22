@@ -1,5 +1,7 @@
 ---
-description: Introduce the steps for integrating BlockRazor BSC RPC.
+description: >-
+  Follow the setup steps, verify requests in your project, get transactions
+  protected and earn backrun refund.
 metaLinks:
   canonical: integration.md
   alternates:
@@ -7,10 +9,10 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc/integration
 ---
 
-# How to integrate BSC RPC into Project
+# Integrate BSC RPC into Project
 
 {% hint style="info" %}
-BlockRazor RPC is open to all users; no service purchase or authentication application is required.
+BlockRazor RPC is free to all users. No auth needed.
 {% endhint %}
 
 ### Endpoint

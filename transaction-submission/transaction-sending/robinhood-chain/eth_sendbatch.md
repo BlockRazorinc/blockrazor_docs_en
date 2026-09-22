@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the integration of eth_sendBatch provided by
-  BlockRazor Robinhood Chain Transaction Sending mode
+  Use the BlockRazor Robinhood Chain eth_sendBatch API. Review the request
+  parameters, and request example.
 metaLinks:
   canonical: eth_sendbatch.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/robinhood-chain/send-batch
 ---
 
-# Robinhood Chain eth\_sendBatch
+# Robinhood Chain eth\_sendBatch API
 
 `eth_sendBatch` is a transaction batch sending interface provided by BlockRazor for Robinhood Chain. Users can use this method to send signed raw transactions in batches to the chain with low latency. Currently, HTTPS protocol is supported.
 

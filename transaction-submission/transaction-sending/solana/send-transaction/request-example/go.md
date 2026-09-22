@@ -1,5 +1,5 @@
 ---
-description: This page describes how to build and send Solana transactions using Go
+description: Use this Go example to build and send Solana transactions with BlockRazor.
 metaLinks:
   canonical: go.md
   alternates:

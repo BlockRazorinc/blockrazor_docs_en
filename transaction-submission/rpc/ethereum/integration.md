@@ -1,5 +1,7 @@
 ---
-description: Introduce the steps for integrating BlockRazor Ethereum RPC
+description: >-
+  Follow the setup steps, verify requests in your project, get transactions
+  protected and earn backrun refund.
 metaLinks:
   canonical: integration.md
   alternates:
@@ -7,10 +9,10 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/ethereum-rpc/integration
 ---
 
-# How to Integrate Ethereum RPC into Project
+# Integrate Ethereum RPC into Project
 
 {% hint style="info" %}
-BlockRazor RPC is open to all users; no service purchase or authentication application is required.
+BlockRazor RPC is free to all users; no auth needed.&#x20;
 {% endhint %}
 
 ### Endpoint

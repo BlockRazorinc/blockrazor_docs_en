@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section introduces a Curl request example for Send Batch in BlockRazor
-  Solana Transaction Sending mode.
+description: Use this cURL example to send Solana transaction batches with BlockRazor.
 metaLinks:
   canonical: curl.md
   alternates:

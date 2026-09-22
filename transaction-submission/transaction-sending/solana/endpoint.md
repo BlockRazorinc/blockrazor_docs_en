@@ -1,5 +1,7 @@
 ---
-description: Introducing the endpoints of BlockRazor Solana Transaction Sending mode
+description: >-
+  Find BlockRazor Solana Transaction Sending endpoints, supported regions,
+  request URLs
 metaLinks:
   canonical: endpoint.md
   alternates:

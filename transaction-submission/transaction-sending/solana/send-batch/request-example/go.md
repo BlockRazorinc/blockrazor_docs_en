@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section introduces a Go request example for Send Batch in BlockRazor
-  Solana Transaction Sending mode.
+description: Use this Go example to send Solana transaction batches with BlockRazor.
 metaLinks:
   canonical: go.md
   alternates:

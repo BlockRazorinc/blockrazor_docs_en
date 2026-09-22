@@ -1,5 +1,7 @@
 ---
-description: This page describes how to build and send Solana transactions using JS
+description: >-
+  Use this JavaScript example to build and send Solana transactions with
+  BlockRazor.
 metaLinks:
   canonical: js.md
   alternates:

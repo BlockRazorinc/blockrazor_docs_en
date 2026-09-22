@@ -1,4 +1,7 @@
 ---
+description: >-
+  View BSC Block Builder Bundle Explorer. See product definition, core
+  capabilities, use cases, and product value.
 metaLinks:
   canonical: bundle-explorer.md
 ---
@@ -8,8 +11,6 @@ metaLinks:
 {% hint style="info" %}
 Bundle Explorer is packaged with the Bundle Tracing service. Users who purchase Bundle Tracing can access Bundle Explorer after signing in to the BlockRazor Portal.
 {% endhint %}
-
-## BSC Bundle Explorer
 
 ### Product Definition
 

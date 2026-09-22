@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page introduces the price and benchmark of Robinhood Chain Transaction
-  Sending
+description: Explore the pricing, benchmarks of Robinhood Chain Transaction Sending.
 metaLinks:
   canonical: ./
   alternates:

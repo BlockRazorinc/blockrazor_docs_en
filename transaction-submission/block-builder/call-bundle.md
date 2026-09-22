@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to Call Bundle of BlockRazor BSC Block Builder and integration
-  methods
+  Use the BlockRazor BSC Block Builder Trace Bundle API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: call-bundle.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/block-builder/call-bundle
 ---
 
-# BSC Block Builder Call Bundle
+# BSC Block Builder Call Bundle API Reference
 
 ### Introduction
 

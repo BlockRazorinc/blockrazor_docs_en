@@ -1,7 +1,5 @@
 ---
-description: >-
-  Introduction to Priority Fee & Tips for BlockRazor Solana Transaction Sending
-  Mode
+description: Explore Priority Fee & Tips for BlockRazor Solana Transaction Sending Mode.
 metaLinks:
   canonical: priority-fee-and-tip.md
   alternates:

@@ -1,7 +1,8 @@
 ---
 description: >-
-  Introduce the integration of 'Send Transaction in Plain Text' in BlockRazor
-  Solana Transaction Sending mode
+  Learn the integration of 'Send Transaction in Plain Text' in BlockRazor Solana
+  Transaction Sending mode. See endpoints, request example, and request
+  parameter.
 metaLinks:
   canonical: send-in-plain-text.md
   alternates:

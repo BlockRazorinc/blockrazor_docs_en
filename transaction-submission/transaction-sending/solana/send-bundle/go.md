@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section introduces a Go request example for Send Bundle in BlockRazor
-  Solana Transaction Sending mode.
+description: Use this Go example to send Solana bundles with BlockRazor.
 metaLinks:
   canonical: go.md
   alternates:

@@ -1,7 +1,8 @@
 ---
 description: >-
-  This document introduces the integration methods and interface access
-  documentation for BlockRazor Ethereum RPC.
+  Explore BlockRazor Ethereum RPC with private transaction routing, MEV
+  protection, low-latency inclusion, and real-time backrun rebates. See
+  endpoints and setup.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +10,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/ethereum-rpc
 ---
 
-# Ethereum RPC
+# Ethereum RPC: MEV Protection & Backrun Refund
 
 ### What Is Ethereum RPC
 

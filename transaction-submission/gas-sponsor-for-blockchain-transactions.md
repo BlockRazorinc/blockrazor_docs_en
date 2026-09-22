@@ -1,13 +1,13 @@
 ---
-description: Introducing BlockRazor's Gas Sponsor, its core features, and access process.
+description: Explore BlockRazor's Gas Sponsor, its core features, and access process.
 metaLinks:
-  canonical: gas-sponsor.md
+  canonical: gas-sponsor-for-blockchain-transactions.md
   alternates:
     - >-
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/gas-sponsor
 ---
 
-# Gas Sponsor
+# Gas Sponsor for Blockchain Transactions
 
 {% hint style="info" %}
 BlockRazor Gas Sponsor currently supports BSC, Solana, Ethereum, and Base. Please [contact](https://discord.com/invite/qqJuwRb8Nh) us if you wish to integrate with our Gas Sponsor service.

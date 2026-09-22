@@ -1,8 +1,8 @@
 ---
 description: >-
-  This section introduces the transaction submission modes, including RPC, Block
-  Builder, Transaction Sending, and Gas Sponsor, and explains how to choose the
-  appropriate mode based on the scena
+  Explore the transaction submission modes, including RPC, Block Builder,
+  Transaction Sending, and Gas Sponsor, and learn how to choose the appropriate
+  mode based on the transation sending scene
 metaLinks:
   canonical: overview.md
   alternates:
@@ -10,7 +10,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/overview
 ---
 
-# Transaction Submission Overview
+# Blockchain Transaction Submission Guide
 
 ### What is Transaction Submission
 
@@ -18,19 +18,19 @@ Transaction Submission is a collection of transaction submission capabilities in
 
 ### What are the modes of Transaction Submission?
 
-#### RPC
+**RPC**
 
 RPC is the standard transaction submission entry point for Transaction Submission. Unlike ordinary public RPCs, BlockRazor RPC improves transaction speed and stability while providing private routing, MEV protection, and a refund mechanism, making it suitable as the default transaction channel for most businesses. BlockRazor RPC also provides a bundle submission entry point to meet the needs of scenarios such as Approve + Swap / Backrun / Copy Trading / Sniping.
 
-#### Block Builder
+**Block Builder**
 
 Block Builder is the block building infrastructure provided by BlockRazor on BSC, supporting core capabilities such as bundle submission, private transaction submission, and bundle trace. It enhances block building competitiveness and block success rate through global deployment, low-latency communication with validators, and various block building algorithms.
 
-#### Transaction Sending
+**Transaction Sending**
 
-Fast is the "speed-first" mode in Transaction Submission, suitable for scenarios highly sensitive to on-chain latency. It uses [BEF](../core-technology/blockchain-edge-fabric.md) to allow transactions to reach the block-producing node within a shorter time window.
+Transaction Sending is suitable for scenarios highly sensitive to on-chain latency. It uses [BEF](../core-technology/blockchain-edge-fabric.md) to allow transactions to reach the block-producing node within a shorter time window.
 
-#### Gas Sponsor
+**Gas Sponsor**
 
 Gas Sponsor is a "cost-first" model within Transaction Submission. By paying gas fees on behalf of users, Gas Sponsor allows users to complete transactions without holding native tokens (such as ETH, BNB, and SOL), helping projects lower the barrier to entry for users and optimize trading experience.
 

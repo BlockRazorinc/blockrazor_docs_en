@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing the integration method of BlockRazor Solana's Send Bundle in
-  Transaction Sending mode.
+  Use the BlockRazor Solana Send Bundle API. Review the endpoint, parameters,
+  and request example.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/solana/send-bundle
 ---
 
-# Solana Send Bundle
+# Solana Send Bundle API Reference
 
 {% hint style="warning" %}
 Solana's bundle sending service is not bound to the subscription plan and is not available by default. If you need to increase the BPS limit, please [contact](https://discord.com/invite/qqJuwRb8Nh) us and we will handle it as soon as possible.

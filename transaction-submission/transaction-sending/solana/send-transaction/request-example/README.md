@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section presents an example of a Send Transaction request in BlockRazor
-  Solana Transaction Sending mode.
+description: Follow a complete Solana Send Transaction request example for BlockRazor.
 metaLinks:
   canonical: ./
   alternates:

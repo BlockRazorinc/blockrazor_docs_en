@@ -1,5 +1,5 @@
 ---
-description: This page describes how to send Solana transactions using curl
+description: Use this cURL example to build and send Solana transactions with BlockRazor.
 metaLinks:
   canonical: curl.md
   alternates:

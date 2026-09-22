@@ -1,7 +1,8 @@
 ---
 description: >-
-  Introduction to Send PrivateTransaction of BlockRazor BSC Block Builder and
-  integration methods
+  Use the BlockRazor BSC Block Builder Send PrivateTransaction API. Review the
+  endpoint, parameters, request format, response fields, and integration
+  example.
 metaLinks:
   canonical: send-privatetransaction.md
   alternates:
@@ -9,7 +10,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/block-builder/send-privatetransaction
 ---
 
-# BSC Block Builder Send PrivateTransaction
+# BSC Block Builder Send PrivateTransaction API Reference
 
 ### Introduction
 

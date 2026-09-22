@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduce how to integrate BlockRazor BSC RPC’s `eth_sendRawTransaction`
-  method.
+  Use the BlockRazor BSC RPC eth_sendRawTransaction API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: eth_sendrawtransaction.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc/eth_sendrawtransaction
 ---
 
-# BSC RPC eth\_sendRawTransaction
+# BSC RPC eth\_sendRawTransaction API
 
 &#x20;`eth_sendRawTransaction` of BlockRazor RPC is compatible with native JSON-RPC methods and requires no additional modifications.
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing the Broadcast Tx interface and integration method for BlockRazor
-  BSC Transaction Sending mode.
+  Use the BlockRazor BSC Broadcast Tx API. Review the API, scenarios, benchmark,
+  price, rate limit, endpoint, and integration example.
 metaLinks:
   canonical: broadcast-tx.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/bsc/broadcast-tx
 ---
 
-# BSC Broadcast Tx
+# BSC Broadcast Tx API Reference
 
 <details>
 

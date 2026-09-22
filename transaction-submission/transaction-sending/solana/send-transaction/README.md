@@ -1,5 +1,7 @@
 ---
-description: Introduction to Send Transaction of BlockRazor Solana Transaction Sending mode
+description: >-
+  Use the BlockRazor Solana Send Transaction API. Review the endpoint,
+  parameters, request example, and integration example.
 metaLinks:
   canonical: ./
   alternates:
@@ -7,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/solana/send-transaction
 ---
 
-# Solana Send Transaction
+# Solana Send Transaction API
 
 {% hint style="warning" %}
 Solana's transaction sending service is not bound to the subscription plan, with rate limit default to 3 TPS. API key could be required from [Authentication](../../../../get-started/authentication.md). If you need to increase the TPS limit, please [contact](https://discord.com/invite/qqJuwRb8Nh) us and we will handle it as soon as possible.

@@ -1,7 +1,8 @@
 ---
 description: >-
-  Introducing the integration method of 'Send Batch in Binary' in BlockRazor
-  Solana Transaction Sending mode.
+  Explore the integration method of 'Send Batch in Binary' in BlockRazor Solana
+  Transaction Sending mode. See endpoints, request parameter, and request
+  example.
 metaLinks:
   canonical: send-in-binary.md
   alternates:

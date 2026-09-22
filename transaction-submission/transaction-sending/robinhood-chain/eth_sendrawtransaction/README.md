@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the integration of eth_sendRawTransaction provided by
-  BlockRazor Robinhood Chain Transaction Sending Mode
+  Use the BlockRazor Robinhood Chain eth_sendRawTransaction API. Review the
+  parameters, and request example.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,10 +9,11 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/robinhood-chain/eth_sendrawtransaction
 ---
 
-# Robinhood Chain eth\_sendRawTransaction
+# Robinhood Chain eth\_sendRawTransaction API
 
 `eth_sendRawTransaction` is a transaction sending interface provided by BlockRazor for Robinhood Chain. Users can use this method to send signed raw transactions to the chain with low latency. Currently, HTTPS protocol is supported.
 
+* [Endpoint](../endpoint.md)
 * [Benchmark](../#benchmark)
 * [Price & Limit](../#price)
 

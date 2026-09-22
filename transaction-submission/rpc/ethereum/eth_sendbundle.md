@@ -1,5 +1,7 @@
 ---
-description: Introduce how to integrate BlockRazor Ethereum RPC’s `eth_sendBundle` method.
+description: >-
+  Use the BlockRazor Ethereum RPC eth_sendBundle API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: eth_sendbundle.md
   alternates:

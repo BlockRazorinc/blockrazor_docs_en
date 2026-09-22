@@ -1,7 +1,5 @@
 ---
-description: >-
-  This section introduces a JS request example for Send Bundle in BlockRazor
-  Solana Fast mode.
+description: Use this JavaScript example to send Solana bundles with BlockRazor.
 metaLinks:
   canonical: js.md
   alternates:

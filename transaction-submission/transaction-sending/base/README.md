@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to BlockRazor Base Transaction Sending mode and API integration
-  documentation
+  Explore BlockRazor Base Transaction Sending mode and API integration
+  documentation.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,5 +9,5 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/base
 ---
 
-# Base Transaction Sending
+# Base Transaction Sending API Integration
 

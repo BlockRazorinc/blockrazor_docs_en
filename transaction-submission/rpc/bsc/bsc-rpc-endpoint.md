@@ -1,4 +1,7 @@
 ---
+description: >-
+  Find general endpoints, dedicated endpoints, and regional endpoints of
+  BlockRazor BSC RPC for low-latency integration.
 layout:
   width: wide
   title:
@@ -16,6 +19,8 @@ layout:
   tags:
     visible: true
   actions:
+    visible: true
+  anchors:
     visible: true
 metaLinks:
   canonical: bsc-rpc-endpoint.md

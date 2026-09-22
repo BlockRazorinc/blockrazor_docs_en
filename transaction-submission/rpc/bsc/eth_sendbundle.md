@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduce how Project Builders can integrate BlockRazor BSC RPC’s
-  `eth_sendMevBundle` method.
+  Use the BlockRazor BSC RPC eth_sendBundle API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: eth_sendbundle.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc/eth_sendbundle
 ---
 
-# BSC RPC eth\_sendBundle
+# BSC RPC eth\_sendMevBundle API
 
 ### Endpoint
 

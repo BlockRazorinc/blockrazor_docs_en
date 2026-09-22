@@ -1,7 +1,7 @@
 ---
 description: >-
-  This document introduces BlockRazor's Transaction Sending mode, along with the
-  provided services and API integration documentation.
+  Explore BlockRazor's Transaction Sending mode, along with the provided
+  services and API integration documentation. See the full developer guide.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending
 ---
 
-# Transaction Sending
+# Low-Latency Transaction Sending APIs
 
 ### What is Transaction Sending mode
 
@@ -26,12 +26,12 @@ Compared to RPC, Transaction Sending focuses more on how to get transactions int
 
 <details>
 
-<summary>What is the difference between Fast and RPC?</summary>
+<summary>What is the difference between Transaction Sending and RPC?</summary>
 
-Both Fast and RPC are transaction sending capabilities, but they have different design goals.
+Both Transaction Sending and RPC are transaction sending capabilities, but they have different design goals.
 
 RPC focuses more on transaction protection and general access capabilities. It provides standard JSON-RPC methods, focusing on addressing the MEV risks that transactions may encounter during public dissemination, and supports refund and disclosure policy configuration and customized RPC access, making it suitable for Wallets, DEXs, and project teams as a standard transaction sending entry point.
 
-Fast prioritizes the speed of transaction on-chain processing. It optimizes the sending path through [BEF](../../core-technology/blockchain-edge-fabric.md), helping transactions enter the on-chain execution process with lower latency. It is suitable for trading bots, quantitative strategies, and timing-sensitive trading scenarios that have higher requirements for on-chain timeliness.
+Transaction Sending prioritizes the speed of transaction on-chain processing. It optimizes the sending path through [BEF](../../core-technology/blockchain-edge-fabric.md), helping transactions enter the on-chain execution process with lower latency. It is suitable for trading bots, quantitative strategies, and timing-sensitive trading scenarios that have higher requirements for on-chain timeliness.
 
 </details>

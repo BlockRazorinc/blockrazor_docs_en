@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduce how to integrate BlockRazor BSC RPC’s `scutum_queryTxProcessStatus`
-  method.
+  Use the BlockRazor BSC RPC Transaction Trace API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: scutum_querytxprocessstatus.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc/scutum_querytxprocessstatus
 ---
 
-# BSC RPC Transaction Trace
+# BSC RPC Transaction Trace API
 
 `scutum_queryTxProcessStatus` is used to query the real-time process status of transactions sent to BlockRazor RPC. It is currently available on BSC.
 

@@ -1,5 +1,7 @@
 ---
-description: Introduction to Fast Submit of BlockRazor BSC Block Builder and access methods
+description: >-
+  Explore the service, benchmark, price, target users and access methods of Fast
+  Submit
 metaLinks:
   canonical: fast-submit.md
   alternates:
@@ -7,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/block-builder/bsc-block-builder-fast-submit
 ---
 
-# BSC Block Builder Fast Submit
+# BSC Block Builder Fast Submit Guide
 
 ### What is Fast Submit?
 

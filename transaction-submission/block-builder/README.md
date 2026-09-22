@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introducing BlockRazor Block Builder: Who is it suitable for? What
-  capabilities does it provide? And how to choose endpoint?
+  Explore BlockRazor Block Builder: Who is it suitable for? What capabilities
+  does it provide? And how to choose endpoint?. See the full developer guide.
 metaLinks:
   canonical: ./
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/block-builder
 ---
 
-# BSC Block Builder
+# BSC Block Builder APIs & Integration
 
 ### What is Block Builder?
 

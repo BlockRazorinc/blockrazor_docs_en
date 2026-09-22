@@ -25,7 +25,7 @@ BlockRazor provides targeted product services for wallets and DEXs to address th
 
 **MEV Protection**: To combat MEV attacks and value leakage, BlockRazor offers MEV-protected RPC services. Transactions are under full-privacy protection during the submission and inclusion process, being shielded from MEV bot monitoring and malicious attacks. Additionally, RPC service allows wallets and DEXs to securely disclose transaction data to earn real-time rebates. Currently, BlockRazor provides [MEV-protected RPC](../../transaction-submission/rpc/) for Ethereum and BSC.
 
-**Gas Sponsor**: To solve the issue of native token shortages, BlockRazor provides [Gas Sponsor ](../../transaction-submission/gas-sponsor.md)service. This allows users to perform swaps without paying any native blockchain currency (e.g., ETH, BNB, SOL). For wallets and DEXs, integrating Gas Sponsor brings additional benefits:
+**Gas Sponsor**: To solve the issue of native token shortages, BlockRazor provides [Gas Sponsor ](../../transaction-submission/gas-sponsor-for-blockchain-transactions.md)service. This allows users to perform swaps without paying any native blockchain currency (e.g., ETH, BNB, SOL). For wallets and DEXs, integrating Gas Sponsor brings additional benefits:
 
 * Attract Incremental Traffic: Gas Sponsor serves as a powerful branding and marketing tool to attract new traffic and boost overall trading activity.
 * Increase Revenue: By enabling more users to complete swaps, the overall volume increases, generating higher swap fee revenue for the platform.

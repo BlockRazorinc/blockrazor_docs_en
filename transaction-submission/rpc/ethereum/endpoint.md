@@ -1,4 +1,7 @@
 ---
+description: >-
+  Find general endpoints, dedicated endpoints, and regional endpoints of
+  BlockRazor Ethereum RPC for low-latency integration.
 metaLinks:
   canonical: endpoint.md
   alternates:

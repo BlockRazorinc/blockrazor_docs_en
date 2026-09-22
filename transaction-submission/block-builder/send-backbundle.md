@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces BlockRazor Block Builder's eth_sendBackBundle (0 Gwei)
-  and its integration method.
+  Use the BlockRazor BSC Block Builder 0 Gwei API. Review the endpoint,
+  parameters, request format, response fields, and integration example.
 metaLinks:
   canonical: send-backbundle.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/block-builder/send-backbundle
 ---
 
-# BSC Block Builder 0 Gwei
+# BSC Block Builder 0 Gwei API Reference
 
 ### Introduction
 

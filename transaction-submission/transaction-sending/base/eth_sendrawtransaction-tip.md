@@ -1,7 +1,7 @@
 ---
 description: >-
-  Introduction to eth_sendRawTransaction of BlockRazor Base Fast mode and
-  integration methods
+  Use the BlockRazor Base eth_sendRawTransaction API. Review the service,
+  endpoint, rate limit, and integration example.
 metaLinks:
   canonical: eth_sendrawtransaction-tip.md
   alternates:
@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/transaction-sending/base/eth_sendrawtransaction-tip
 ---
 
-# Base eth\_sendRawTransaction(tip)
+# Base eth\_sendRawTransaction(tip) API
 
 ### Introduction
 

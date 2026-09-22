@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section introduces the integration of Health Check method provided by
-  BlockRazor Robinhood Chain Transaction Sending mode.
+  Explore the integration of Health Check method provided by BlockRazor
+  Robinhood Chain Transaction Sending mode.
 metaLinks:
   canonical: health-check.md
   alternates:
