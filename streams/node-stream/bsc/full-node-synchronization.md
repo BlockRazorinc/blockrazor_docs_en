@@ -55,7 +55,7 @@ In terms of lead time, the average lead time of nodes connected to the relay in 
 
 ### Price
 
-<table><thead><tr><th width="173.8984375">Payment Method</th><th width="295.85546875">Price</th><th width="254.1796875">Action</th></tr></thead><tbody><tr><td>Personalized</td><td>$80 / enode / day<br>$800 / enode / month</td><td><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=bsc&#x26;serviceId=bsc_enode&#x26;billing=day" class="button primary small">Subscribe</a></td></tr><tr><td>Package</td><td>$1250 / month<br>packaged with 9 other services.</td><td><a href="https://blockrazor.io/#/portal/pricing?redirect=pricing&#x26;purchaseMode=package&#x26;billing=month" class="button primary small">Subscribe</a></td></tr></tbody></table>
+<table><thead><tr><th width="173.8984375">Payment Method</th><th width="295.85546875">Price</th><th width="254.1796875">Action</th></tr></thead><tbody><tr><td>Personalized</td><td>$80 / enode / day<br>$800 / enode / month</td><td><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=bsc&#x26;serviceId=bsc_enode&#x26;billing=day" class="button primary small">Subscribe</a></td></tr><tr><td>Package</td><td>$1250 / month<br>bundled with other essential services for more value</td><td><a href="https://blockrazor.io/#/portal/pricing?redirect=pricing&#x26;purchaseMode=package&#x26;billing=month" class="button primary small">Subscribe</a></td></tr></tbody></table>
 
 ### Relay IP
 

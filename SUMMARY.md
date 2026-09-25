@@ -145,7 +145,7 @@
   * [Monad](transaction-submission/transaction-sending/monad/README.md)
     * [eth\_sendRawTransaction](transaction-submission/transaction-sending/monad/eth_sendrawtransaction.md)
     * [eth\_sendRawTransaction(tip)](transaction-submission/transaction-sending/monad/eth_sendrawtransaction-tip.md)
-* [Gas Sponsor for Blockchain Transactions](transaction-submission/gas-sponsor-for-blockchain-transactions.md)
+* [Gas Sponsor for Blockchain Transactions](transaction-submission/gas-sponsor.md "Gas Sponsor")
 
 ## Core Technology
 

@@ -35,7 +35,7 @@ High-frequency trading path optimization: For trading systems that rely on timin
 
 ### Price & Rate Limit
 
-<table><thead><tr><th width="132.03515625">Payment Method</th><th width="197.1875">Rate Limit</th><th width="265.8828125">Price</th><th width="127.80078125">Action</th></tr></thead><tbody><tr><td>Free</td><td>20 requests / day</td><td>Free</td><td>-</td></tr><tr><td>Personalized</td><td>500 requests / day</td><td>$20 / day</td><td><a href="https://blockrazor.io/#/portal/pricing?purchaseMode=personalized&#x26;chain=bsc&#x26;serviceId=bsc_tx_trace&#x26;billing=day" class="button primary small">Subscribe</a></td></tr><tr><td>Package</td><td>500 requests / day</td><td>$1250 / month<br>packaged with 9 other services</td><td><a href="https://blockrazor.io/#/portal/pricing?redirect=pricing&#x26;purchaseMode=package&#x26;billing=month" class="button primary small">Subscribe</a></td></tr></tbody></table>
+<table><thead><tr><th width="132.03515625">Payment Method</th><th width="197.1875">Rate Limit</th><th width="265.8828125">Price</th><th width="127.80078125">Action</th></tr></thead><tbody><tr><td>Free</td><td>20 requests / day</td><td>Free</td><td>-</td></tr><tr><td>Personalized</td><td>500 requests / day</td><td>$20 / day</td><td><a href="https://blockrazor.io/#/portal/pricing?purchaseMode=personalized&#x26;chain=bsc&#x26;serviceId=bsc_tx_trace&#x26;billing=day" class="button primary small">Subscribe</a></td></tr><tr><td>Package</td><td>500 requests / day</td><td>$1250 / month<br>bundled with other essential services for more value</td><td><a href="https://blockrazor.io/#/portal/pricing?redirect=pricing&#x26;purchaseMode=package&#x26;billing=month" class="button primary small">Subscribe</a></td></tr></tbody></table>
 
 ### Endpoint
 

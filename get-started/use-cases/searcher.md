@@ -92,12 +92,6 @@ BlockRazor's subscription plans are highly competitive in terms of pricing, and 
 3. Integrate the [<mark style="color:blue;">Public Mempool</mark>](../../streams/public-mempool/bsc/public-mempool.md) to subscribe to the latest transactions with low latency; synchronize blocks with low latency through [Node Stream](../../streams/node-stream/bsc/full-node-synchronization.md) if you have local node.
 4. Execute the arbitrage strategy, and submit bundle to BlockRazor RPC using [Bundle](../../transaction-submission/rpc/bsc/orderflow-auction.md).
 
-#### **0 Gwei Transaction at End of Block**
-
-1. [Register](https://www.blockrazor.io/#/register) for BlockRazor
-2. [Log in](https://www.blockrazor.io/#/login) to BlockRazor, purchase package, and go to the account module to obtain the auth token
-3. Join [Discord](https://discord.com/invite/qqJuwRb8Nh) to contact, integrate with the Block Builder's API of 0 Gwei Transaction at End of Block
-
 ### FAQ
 
 <details>

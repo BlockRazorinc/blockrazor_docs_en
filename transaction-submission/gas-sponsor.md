@@ -1,7 +1,7 @@
 ---
 description: Explore BlockRazor's Gas Sponsor, its core features, and access process.
 metaLinks:
-  canonical: gas-sponsor-for-blockchain-transactions.md
+  canonical: gas-sponsor.md
   alternates:
     - >-
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/gas-sponsor
