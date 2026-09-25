@@ -2,6 +2,8 @@
 description: >-
   Use the BlockRazor BSC Block Builder 0 Gwei API. Review the endpoint,
   parameters, request format, response fields, and integration example.
+hidden: true
+noIndex: true
 metaLinks:
   canonical: send-backbundle.md
   alternates:
