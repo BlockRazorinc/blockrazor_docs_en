@@ -48,7 +48,7 @@ The price is $200 per unit per day and $2000 per unit per month. <a href="https:
 {% step %}
 **Retrieve the auth from the portal and append it as the URI to the WS URL.**
 
-ws://us.robinhood-feeder.blockrazor.io/ws/direct/ultra{authToken}
+ws://us.robinhood-feeder.blockrazor.io/ws/direct/ultra/{authToken}
 {% endstep %}
 
 {% step %}

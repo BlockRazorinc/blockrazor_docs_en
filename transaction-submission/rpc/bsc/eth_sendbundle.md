@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/QJcHRn7SY50Ny5UQhXHy/transaction-submission/rpc/bsc/eth_sendbundle
 ---
 
-# BSC RPC eth\_sendMevBundle API
+# BSC RPC eth\_sendBundle API
 
 ### Endpoint
 
@@ -22,7 +22,7 @@ For project RPC, please refer to the [Integration](integration.md)
 ### Request parameters
 
 {% hint style="info" %}
-On BSC, `eth_sendMevBundle` allows transactions with 0 gwei in the bundle, but the average gasPrice of transactions(excluding those from the public mempool) in the bundle must still be no less than 0.05 gwei. Since head builders of BSC have a preference for this model, it is recommended to construct transactions with 0 gwei.
+On BSC, `eth_sendMevBundle` allows transactions with 0 gwei in the bundle, but the average gasPrice of transactions(excluding those from the public mempool) in the bundle must still be no less than 0.05 gwei.
 {% endhint %}
 
 #### **Bundle**

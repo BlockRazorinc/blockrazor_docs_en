@@ -74,7 +74,7 @@
     * [Integrate BSC RPC into Project](transaction-submission/rpc/bsc/integration.md "Integrate into Project")
     * [BSC RPC Refund Mechanism](transaction-submission/rpc/bsc/refund.md "Refund Mechanism")
     * [BSC RPC eth\_sendRawTransaction API](transaction-submission/rpc/bsc/eth_sendrawtransaction.md "eth_sendRawTransaction")
-    * [BSC RPC eth\_sendMevBundle API](transaction-submission/rpc/bsc/eth_sendbundle.md "eth_sendBundle")
+    * [BSC RPC eth\_sendBundle API](transaction-submission/rpc/bsc/eth_sendbundle.md "eth_sendBundle")
     * [BSC RPC Transaction Trace API](transaction-submission/rpc/bsc/scutum_querytxprocessstatus.md "Transaction Trace")
     * [BSC RPC Orderflow Auction for Searchers](transaction-submission/rpc/bsc/orderflow-auction.md "Orderflow Auction")
     * [gRPC](transaction-submission/rpc/bsc/grpc.md)
