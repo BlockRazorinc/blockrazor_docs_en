@@ -66,7 +66,7 @@ timestamp: 2026/10/02 08:28:57，block count: 3561
 
 | Sequencer Feed                 |       P50 |       P90 |       P95 |       P99 |          最大值 |
 | ------------------------------ | --------: | --------: | --------: | --------: | -----------: |
-| BlcokRazor Sequencer Feed      |  0.000 ms |  0.000 ms |  0.000 ms |  0.000 ms |     0.000 ms |
+| BlockRazor Sequencer Feed      |  0.000 ms |  0.000 ms |  0.000 ms |  0.000 ms |     0.000 ms |
 | Robinhood Chain Sequencer Feed | 24.752 ms | 25.541 ms | 28.123 ms | 66.117 ms | 1,609.138 ms |
 {% endtab %}
 
@@ -75,7 +75,7 @@ timestamp: 2026/10/02 08:28:55，block count: 3614
 
 | Sequencer Feed                 |       P50 |       P90 |       P95 |       P99 |        最大值 |
 | ------------------------------ | --------: | --------: | --------: | --------: | ---------: |
-| US Sequencer Feed              |  0.000 ms |  0.000 ms |  0.000 ms |  0.000 ms |   0.000 ms |
+| BlockRazor Sequencer Feed      |  0.000 ms |  0.000 ms |  0.000 ms |  0.000 ms |   0.000 ms |
 | Robinhood Chain Sequencer Feed | 22.859 ms | 23.551 ms | 24.896 ms | 55.628 ms | 512.214 ms |
 {% endtab %}
 {% endtabs %}
