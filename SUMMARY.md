@@ -51,7 +51,7 @@
       * [Utilize Dedicate Node](streams/node-stream/bsc/dedicate-node/utilize-dedicate-node.md)
   * [Ethereum Node Stream: CL/EL client synchronization.](streams/node-stream/ethereum/README.md "Ethereum")
     * [Ethereum CL/EL Client Sync](streams/node-stream/ethereum/cl-el-client-sync.md "CL/EL Client Sync")
-  * [Robinhood Chain Sequencer Feed Integration Guide](streams/node-stream/robinhood-chain/README.md "Robinhood Chain")
+  * [Robinhood Chain Sequencer Feed Integration](streams/node-stream/robinhood-chain/README.md "Robinhood Chain")
     * [Robinhood Chain Node-required Sequencer Feed Integration Guide](streams/node-stream/robinhood-chain/sequencer-feed.md "Node-required Sequencer Feed")
     * [Robinhood Chain Node-required Sequencer Feed(Ultra) Integration Guide](streams/node-stream/robinhood-chain/sequencer-feed-ultra.md "Node-required Sequencer Feed(Ultra)")
     * [Robinhood Chain Direct Sequencer Feed Integration Guide](streams/node-stream/robinhood-chain/direct-sequencer-feed.md "Direct Sequencer Feed")
