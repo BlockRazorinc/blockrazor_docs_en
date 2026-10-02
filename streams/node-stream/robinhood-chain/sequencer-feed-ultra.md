@@ -34,30 +34,30 @@ Benchmark data is as follows:
 
 {% tabs %}
 {% tab title="use2-az1" %}
-Total samples: `4,232`
+Timestamp: 2026/10/02 07:49:57  Block count: 2984
 
-| Sequencer Feed                 |          P50 |          P90 |          P95 |          P99 |          Max |
-| ------------------------------ | -----------: | -----------: | -----------: | -----------: | -----------: |
-| **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** |
-| Robinhood Chain Sequencer Feed |    28.026 ms |    45.177 ms |    52.780 ms |    85.805 ms |   818.664 ms |
+| Sequencer Feed                 |      P50 |      P90 |      P95 |       P99 |        最大值 |
+| ------------------------------ | -------: | -------: | -------: | --------: | ---------: |
+| BlockRazor Sequencer Feed      | 0.000 ms | 0.000 ms | 0.000 ms |  0.000 ms |   0.000 ms |
+| Robinhood Chain Sequencer Feed | 7.449 ms | 9.086 ms | 9.644 ms | 17.949 ms | 474.037 ms |
 {% endtab %}
 
 {% tab title="use2-az2" %}
-Total samples: `4,305`
+Timestamp: 2026/10/02 07:50:13  Block count: 2945
 
-| Sequencer Feed                 |          P50 |          P90 |          P95 |          P99 |          Max |
-| ------------------------------ | -----------: | -----------: | -----------: | -----------: | -----------: |
-| **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** |
-| Robinhood Chain Sequencer Feed |    97.404 ms |   195.406 ms |   301.405 ms |   953.111 ms | 1,616.810 ms |
+| Sequencer Feed                 |       P50 |       P90 |       P95 |        P99 |        最大值 |
+| ------------------------------ | --------: | --------: | --------: | ---------: | ---------: |
+| BlockRazor Sequencer Feed      |  0.000 ms |  0.000 ms |  0.000 ms |   0.000 ms |   0.000 ms |
+| Robinhood Chain Sequencer Feed | 30.732 ms | 41.094 ms | 58.442 ms | 104.372 ms | 493.632 ms |
 {% endtab %}
 
 {% tab title="use2-az3" %}
-Total samples: `4,714`
+Timestamp: 2026/10/02 07:50:09  Block count: 2982
 
-| Sequencer Feed                 |          P50 |          P90 |          P95 |          P99 |          Max |
-| ------------------------------ | -----------: | -----------: | -----------: | -----------: | -----------: |
-| **BlockRazor Sequencer Feed**  | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **9.580 ms** |
-| Robinhood Chain Sequencer Feed |    27.310 ms |    52.828 ms |    66.711 ms |   111.686 ms |   736.300 ms |
+| Sequencer Feed                 |       P50 |       P90 |       P95 |       P99 |        最大值 |
+| ------------------------------ | --------: | --------: | --------: | --------: | ---------: |
+| BlockRazor Sequencer Feed      |  0.000 ms |  0.000 ms |  0.000 ms |  0.000 ms |   0.000 ms |
+| Robinhood Chain Sequencer Feed | 27.053 ms | 28.322 ms | 31.812 ms | 61.687 ms | 459.429 ms |
 {% endtab %}
 
 {% tab title="Tokyo" %}
@@ -67,14 +67,12 @@ Total samples: `3,996`
 | ------------------------------- | -----------: | -----------: | -----------: | -----------: | ------------: |
 | **BlockRazor Sequencer Feed**   | **0.000 ms** | **0.000 ms** | **0.000 ms** | **0.000 ms** | **68.232 ms** |
 |  Robinhood Chain Sequencer Feed |    71.365 ms |   108.596 ms |   116.049 ms |   220.859 ms |   1969.576 ms |
-
-
 {% endtab %}
 {% endtabs %}
 
-Across all three Availability Zones, the BlockRazor Sequencer Feed maintained a relative latency of `0 ms` through P99. In comparison, the Robinhood Chain Sequencer Feed recorded median relative latencies ranging from `27.310 ms` to `97.404 ms`.
+Across all three Availability Zones, the BlockRazor Sequencer Feed maintained a relative latency of `0 ms` through P99. In comparison, the Robinhood Chain Sequencer Feed recorded median relative latencies ranging from `7.449 ms` to `30.732 ms`.
 
-The difference was most pronounced in `use2-az2`, where the Robinhood Chain Sequencer Feed reached `97.404 ms` at P50, `953.111 ms` at P99, and a maximum relative latency of `1,616.810 ms`.
+The difference was most pronounced in `use2-az2`, where the Robinhood Chain Sequencer Feed reached `30.732 ms` at P50, `104.372 ms` at P99, and a maximum relative latency of `493.632 ms`.
 
 In summary, the benchmark results show that the BlockRazor Sequencer Feed consistently delivered blocks earlier and with substantially lower relative latency across all three tested Availability Zones. This provides a faster and more stable first-delivery window for latency-sensitive applications and transactions.
 
