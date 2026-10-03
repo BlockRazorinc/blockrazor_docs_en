@@ -20,6 +20,12 @@ Please note that the Direct Sequencer Feed may skip blocks during periods of net
 
 </details>
 
+### **High-performance JSON parsing**
+
+For Go applications consuming the Robinhood Chain Direct Sequencer Feed, [ByteDance Sonic](https://github.com/bytedance/sonic) can be used to deserialize each JSON message received over WebSocket into application-defined structs. Sonic is a high-performance JSON serialization and deserialization library accelerated by JIT and SIMD on supported environments. It provides familiar `Marshal` and `Unmarshal` APIs, streaming decoders, and AST-based partial field access, making it suitable for latency-sensitive trading systems that want to reduce application-side JSON parsing overhead.
+
+Actual performance depends on the message structure, CPU architecture, and runtime configuration. Applications should benchmark the parser in their own production environment and pre-warm frequently used Go types before processing latency-sensitive traffic.
+
 ### Price
 
 The price is $80 per unit per day and $800 per unit per month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=robinhood&#x26;serviceId=robinhood_direct_feed_stream&#x26;billing=day" class="button primary small">Subscribe</a>
