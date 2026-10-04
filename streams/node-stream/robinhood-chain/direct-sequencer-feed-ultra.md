@@ -22,11 +22,13 @@ The solution is purpose-built for advanced sniping and copy-trading strategies w
 
 </details>
 
-### **High-performance JSON parsing**
+### High-Performance JSON Parsing
 
-For Go applications consuming the Robinhood Chain Direct Sequencer Feed(Ultra), [ByteDance Sonic](https://github.com/bytedance/sonic) can be used to deserialize each JSON message received over WebSocket into application-defined structs. Sonic is a high-performance JSON serialization and deserialization library accelerated by JIT and SIMD on supported environments. It provides familiar `Marshal` and `Unmarshal` APIs, streaming decoders, and AST-based partial field access, making it suitable for latency-sensitive trading systems that want to reduce application-side JSON parsing overhead.
+Go clients connecting to the Robinhood Chain Direct Sequencer Feed(Ultra) can use [ByteDance Sonic](https://github.com/bytedance/sonic) to parse JSON messages received over WebSocket. Sonic uses JIT compilation and SIMD acceleration to reduce parsing latency and CPU overhead in latency-sensitive trading systems.
 
-Actual performance depends on the message structure, CPU architecture, and runtime configuration. Applications should benchmark the parser in their own production environment and pre-warm frequently used Go types before processing latency-sensitive traffic.
+In our benchmarks, Sonic achieved a **P50 JSON parsing latency of approximately 2–3 microseconds**. Actual performance may vary depending on message size, data structure, CPU architecture, and runtime environment. We recommend benchmarking with real feed data and warming up commonly used Go types before processing latency-sensitive traffic.
+
+Our current reference implementation is written in **Go**. For trading strategies written in Rust, C++, or other languages, developers can use the above latency as a reference when selecting and benchmarking an equivalent high-performance JSON parsing library.
 
 ### Price
 
