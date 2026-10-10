@@ -18,10 +18,6 @@ Priority Fee is an additional transaction fee charged by Solana on top of Base F
 When constructing a transaction, you need to add a instruction of Tip transfer into the transaction(preferably added at the front position) to further speed up the inclusion. BlockRazor does not charge service fees from Tips. The Tip transfer amount is at least 100,000 Lamports (0.0001 Sol) . It is recommended to set it to the value returned by [`getTransactionfee`](../../../streams/network-fee-stream/solana/get-transactionfee.md). The account to receive Tip is:
 
 ```
-"FjmZZrFvhnqqb9ThCuMVnENaM3JGVuGWNyCAxRJcFpg9",
-"6No2i3aawzHsjtThw81iq1EXPJN6rh8eSJCLaYZfKDTG",
-"A9cWowVAiHe9pJfKAj3TJiN9VpbzMUq6E4kEvf5mUT22",
-"Gywj98ophM7GmkDdaWs4isqZnDdFCW7B46TXmKfvyqSm",
 "68Pwb4jS7eZATjDfhmTXgRJjCiZmw1L7Huy4HNpnxJ3o",
 "4ABhJh5rZPjv63RBJBuyWzBK3g9gWMUQdTZP2kiW31V9",
 "B2M4NG5eyZp5SBQrSdtemzk5TqVuaWGQnowGaCBt8GyM",
