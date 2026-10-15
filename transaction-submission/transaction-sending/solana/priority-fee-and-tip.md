@@ -28,6 +28,17 @@ When constructing a transaction, you need to add a instruction of Tip transfer i
 "BnGKHAC386n4Qmv9xtpBVbRaUTKixjBe3oagkPFKtoy6",
 "Dd7K2Fp7AtoN8xCghKDRmyqr5U169t48Tw5fEd3wT9mq",
 "AP6qExwrbRgBAVaehg4b5xHENX815sMabtBzUzVB4v8S",
+"8EpzWhsr7uyZkfVD7MTHoWqupM14xngzMeUcCkWbY1UG",
+"56XRik27PddNnR7JkHKqd5pWdMHeqje7TCm1gsdmvnTP",
+"2DJNtR1tT7vfub7sDJ6v9NGmrzGVFUer5FvjhEcWEpvv",
+"3AveZTS3PJo5qKEqHJci5bjW8neufriirr9mJXfsv4iH",
+"9DC798ezxU2f2i8ggQ4vsqrsNxdDWJWAFg4cT1xLDR1X",
+```
+
+You can also retrieve the tip addresses dynamically to ensure your integration stays up to date if they change.
+
+```bash
+curl http://frankfurt.solana.blockrazor.xyz:443/getTipAccounts
 ```
 
 {% hint style="info" %}
