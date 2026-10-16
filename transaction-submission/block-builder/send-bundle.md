@@ -15,7 +15,11 @@ metaLinks:
 
 This API is used to receive bundles, with the method name `eth_sendBundle`.
 
-The block construction algorithm of BlockRazor Builder favors bundles that transfer more native tokens (BNB) to BlockRazor Builder EOA of which address is 0x1266C6bE60392A8Ff346E8d5ECCd3E69dD9c5F20 currently.
+The block construction algorithm of BlockRazor Builder favors bundles that transfer more native tokens (BNB) to BlockRazor Builder EOA of which address is
+
+```
+0xc7d4187cBda07F4b5be04418B9723b5faF65dB5C
+```
 
 The gas price for transactions within the bundle must be at least the minimum standard required by BSC Validators (Currently at 0.05 gwei).
 
