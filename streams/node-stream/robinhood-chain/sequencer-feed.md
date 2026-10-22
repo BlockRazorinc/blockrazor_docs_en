@@ -95,7 +95,7 @@ In summary, BlockRazor Sequencer Feed demonstrates significant advantages in blo
 
 ### Price
 
-The price is $80 per unit per day and $800 per unit per month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=robinhood&#x26;serviceId=robinhood_feed_stream&#x26;billing=day" class="button primary small">Subscribe</a>
+<table><thead><tr><th width="177.73046875">Payment Method</th><th>Price</th><th>Action</th></tr></thead><tbody><tr><td>Personalized</td><td>$80 / stream / day<br>$800 / stream / month</td><td><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=robinhood&#x26;serviceId=robinhood_feed_stream&#x26;billing=day" class="button primary small">Subscribe</a></td></tr><tr><td>Package</td><td>$1250 / month<br>The default is Node-required Sequencer Feed. To switch to Direct Sequencer Feed, please <a href="https://discord.com/invite/qqJuwRb8Nh">contact us</a>.</td><td><a href="https://blockrazor.io/#/portal/pricing?redirect=pricing&#x26;purchaseMode=package&#x26;billing=month" class="button primary small">Subscribe</a></td></tr></tbody></table>
 
 ### Endpoint
 

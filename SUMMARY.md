@@ -10,7 +10,7 @@
 * [Use Cases for Onchain Trading Teams](get-started/use-cases/README.md "Use Cases")
   * [Global Low-latency Infrastructure for Wallets & DEXs](get-started/use-cases/wallet-dex.md "Wallet / DEX")
   * [Global Low-latency Infrastructure for Copy Trading & Sniping](get-started/use-cases/trading-bot.md "Trading Bot")
-  * [MEV Searcher Infrastructure and Bundle API](get-started/use-cases/searcher.md "Searcher")
+  * [Multi-Chain Searcher Infra: From Signal Acquisition to Transaction Submission](get-started/use-cases/searcher.md "Searcher")
   * [Global Low-latency Infrastructure for Quant Trading](get-started/use-cases/quant-trading.md "Quant Trading")
   * [BlockRazor RPC for Individual Traders](get-started/use-cases/individual-trader.md "Individual Trader")
 
