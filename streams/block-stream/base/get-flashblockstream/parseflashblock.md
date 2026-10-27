@@ -1,5 +1,7 @@
 ---
 description: Get the code example to parse FlashBlock stream provided by BlockRazor
+hidden: true
+noIndex: true
 metaLinks:
   canonical: parseflashblock.md
   alternates:

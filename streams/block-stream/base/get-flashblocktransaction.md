@@ -2,6 +2,8 @@
 description: >-
   Explore the BlockRazor Base Get FlashBlockTransaction service, advantage,
   endpoint, price, and integration guide.
+hidden: true
+noIndex: true
 metaLinks:
   canonical: get-flashblocktransaction.md
   alternates:

@@ -3,7 +3,6 @@ description: >-
   Explore BlockRazor's global low-latency infrastructure for orderflow projects,
   trading bots, searchers, and quant trading on BSC, Solana, Ethereum, Base, and
   Robinhood Chain.
-noIndex: true
 metaLinks:
   canonical: ./
   alternates:
