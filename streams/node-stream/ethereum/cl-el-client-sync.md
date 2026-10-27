@@ -57,7 +57,7 @@ If your system needs its local nodes to synchronize with the latest blocks and w
 
 #### Step 1: Purchase Node Stream
 
-1. Go to [https://www.blockrazor.io/](https://www.blockrazor.io/https://www.blockrazor.io/), click on "Sign up" in the upper right corner, and complete the registration.
+1. Go to [https://blockrazor.io/](https://blockrazor.io/), click on "Sign up" in the upper right corner, and complete the registration.
 2. Log in to the console, go to \[Pricing] and complete the purchase.
 3. Go to \[Services] - \[Streams] - \[Node Stream], and click \[Edit].
 4. Select the region closest to the EL client, enter the EL client Enode that needs to be connected to the relay, and click \[Confirm] to complete the addition.
