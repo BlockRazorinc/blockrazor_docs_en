@@ -13,7 +13,7 @@ metaLinks:
 
 ### Introduction
 
-This method supports querying the current status of the bundle by bundle hash. Please query 5 minutes after sending the bundle to the builder. Endpoint: [https://bsc-bundle-stats.blockrazor.io/](https://bsc-bundle-stats.blockrazor.io/)
+This method supports querying the current status of the bundle by bundle hash. Please query 5 minutes after sending the bundle to the builder. Endpoint: https://bsc-bundle-stats.blockrazor.io/
 
 ### Price
 
