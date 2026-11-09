@@ -12,7 +12,7 @@ Elysium is a high-performance Layer 2 network in the Hyperliquid ecosystem, buil
 
 #### Pricing
 
-<table><thead><tr><th width="122.609375">User Type</th><th width="264.87890625">Price</th><th width="310.44921875">Rate Limit</th></tr></thead><tbody><tr><td>Newly Registered Users</td><td>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid Users</td><td>5 Txs / 1s</td><td>$100 / day<br>$1000 / month<br><br><a class="button primary">Button</a></td></tr></tbody></table>
+<table><thead><tr><th width="122.609375">User Type</th><th width="264.87890625">Price</th><th width="310.44921875">Rate Limit</th></tr></thead><tbody><tr><td>Newly Registered Users</td><td>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid Users</td><td>5 Txs / 1s</td><td>$100 / day<br>$1000 / month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=hyperliquid_l2_transaction_sending&#x26;billing=day" class="button primary medium">Subscribe</a></td></tr></tbody></table>
 
 #### Endpoint
 
