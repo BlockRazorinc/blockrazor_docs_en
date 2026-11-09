@@ -145,6 +145,8 @@
   * [Monad](transaction-submission/transaction-sending/monad/README.md)
     * [eth\_sendRawTransaction](transaction-submission/transaction-sending/monad/eth_sendrawtransaction.md)
     * [eth\_sendRawTransaction(tip)](transaction-submission/transaction-sending/monad/eth_sendrawtransaction-tip.md)
+  * [Elysium](transaction-submission/transaction-sending/elysium/README.md)
+    * [Elysium eth\_sendRawTransaction API](transaction-submission/transaction-sending/elysium/eth_sendrawtransaction.md "eth_sendRawTransaction")
 * [Gas Sponsor for Blockchain Transactions](transaction-submission/gas-sponsor.md "Gas Sponsor")
 
 ## Core Technology
