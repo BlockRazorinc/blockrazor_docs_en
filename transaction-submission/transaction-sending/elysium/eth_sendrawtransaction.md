@@ -12,15 +12,15 @@ Elysium is a high-performance Layer 2 network in the Hyperliquid ecosystem, buil
 
 #### Pricing
 
-<table><thead><tr><th width="122.609375">User Type</th><th width="264.87890625">Price</th><th width="310.44921875">Rate Limit</th></tr></thead><tbody><tr><td>Newly Registered Users</td><td>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid Users</td><td>5 Txs / 1s</td><td>$100 / day<br>$1000 / month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=hyperliquid_l2&#x26;serviceId=hyperliquid_l2_transaction_sending&#x26;billing=day" class="button primary medium">Subscribe</a></td></tr></tbody></table>
+<table><thead><tr><th width="117.859375">User Type</th><th width="264.87890625">Price</th><th width="310.44921875">Rate Limit</th></tr></thead><tbody><tr><td>Newly Registered Users</td><td>1 Tx / 5s</td><td>Free</td></tr><tr><td>Paid Users</td><td>20 Txs / 1s</td><td>$100 / day<br>$1000 / month<br><br><a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=hyperliquid_l2&#x26;serviceId=hyperliquid_l2_transaction_sending&#x26;billing=day" class="button primary medium">Subscribe</a></td></tr></tbody></table>
 
 #### Endpoint
 
-<table><thead><tr><th width="115.1171875">Region</th><th width="534.67578125">Endpoint</th></tr></thead><tbody><tr><td>Tokyo</td><td>https://ap.elysium.blockrazor.io</td></tr></tbody></table>
+<table><thead><tr><th width="115.1171875">Region</th><th width="580.09765625">Endpoint</th></tr></thead><tbody><tr><td>Tokyo</td><td>https://ap.elysium.blockrazor.io</td></tr></tbody></table>
 
 #### Request Parameters
 
-<table><thead><tr><th width="150.40234375">Parameter</th><th width="81">Required</th><th width="82">Format</th><th width="106">Example</th><th>Description</th></tr></thead><tbody><tr><td>-</td><td>Yes</td><td>String</td><td>"0x…4b"</td><td>A signed raw transaction</td></tr></tbody></table>
+<table><thead><tr><th width="115.6328125">Parameter</th><th width="112.89453125">Required</th><th width="82">Format</th><th width="106">Example</th><th width="276.828125">Description</th></tr></thead><tbody><tr><td>-</td><td>Yes</td><td>String</td><td>"0x…4b"</td><td>A signed raw transaction</td></tr></tbody></table>
 
 #### Request Example
 

@@ -2,6 +2,8 @@
 description: >-
   Use the BlockRazor Base eth_sendRawTransaction API. Review the service,
   endpoint, rate limit, and integration example.
+hidden: true
+noIndex: true
 metaLinks:
   canonical: eth_sendrawtransaction-tip.md
   alternates:
