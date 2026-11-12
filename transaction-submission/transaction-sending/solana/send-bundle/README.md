@@ -35,4 +35,4 @@ To enhance MEV protection, use any valid Solana public key starting with `jitodo
 
 ### Request Parameter
 
-<table><thead><tr><th width="111.44921875">Parameters</th><th width="115.421875">Mandatory</th><th width="104.94140625">Format</th><th width="109.98046875">Example</th><th>Description</th></tr></thead><tbody><tr><td>transactions</td><td>Mandatory</td><td>string[]</td><td>["$base64_tx_1","$base64_tx_2","$base64_tx_3"]</td><td>Fully signed transactions, Base64 encoding protocal </td></tr></tbody></table>
+<table><thead><tr><th width="111.44921875">Parameters</th><th width="115.421875">Mandatory</th><th width="104.94140625">Format</th><th width="109.98046875">Example</th><th>Description</th></tr></thead><tbody><tr><td>transactions</td><td>Mandatory</td><td>string[]</td><td>["$base64_tx_1","$base64_tx_2","$base64_tx_3"]</td><td>Fully signed transactions, Base64 encoding protocal </td></tr><tr><td>mode</td><td>Optional</td><td>string</td><td>"sandwichMitigation"</td><td>If "sandwichMitigation" is provided, the bundle protection mode will be enabled; otherwise, it will not be enabled.</td></tr></tbody></table>
