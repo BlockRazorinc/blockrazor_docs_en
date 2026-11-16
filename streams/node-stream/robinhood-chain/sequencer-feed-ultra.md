@@ -2,6 +2,8 @@
 description: >-
   Explore the services, benchmark, price, endpoint and integration methods of
   the BlockRazor Node-required Sequencer Feed(Ultra).
+hidden: true
+noIndex: true
 ---
 
 # Robinhood Chain Node-required Sequencer Feed(Ultra) Integration Guide
