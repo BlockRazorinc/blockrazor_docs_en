@@ -27,19 +27,6 @@ For trading systems and infrastructure systems, the ability to acquire block dat
 
 </details>
 
-<details>
-
-<summary><strong>What is the difference between Get BlockStream and Get FlashBlockStream</strong></summary>
-
-The core difference between the two lies in the different data granularity, time points, and applicable scenarios.
-
-* Get BlockStream\
-  It is used to retrieve block that has already been formed on Base, focusing on confirmed blocks and transactions within. It is more suitable for monitoring confirmation results, block-level analysis, on-chain data processing, and data systems that need to stably consume blocks.
-* **Get FlashBlockStream**\
-  Used to retrieve FlashBlock data on Base. FlashBlock is a "sub-block" of data pushed by Base approximately every 200ms, providing pre-confirmation information for transactions much earlier than the standard 2-second formal block time. It is more suitable for scenarios that are more sensitive to low latency and want to see on-chain changes as early as possible.
-
-</details>
-
 ### Price
 
 The price is $30 / stream / day and $300 / stream / month. <a href="https://blockrazor.io/#/login?redirect=pricing&#x26;purchaseMode=personalized&#x26;chain=base&#x26;serviceId=base_blockstream&#x26;billing=day" class="button primary small">Subscribe</a>
