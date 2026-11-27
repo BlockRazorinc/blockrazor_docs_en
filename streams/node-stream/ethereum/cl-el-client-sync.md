@@ -140,7 +140,7 @@ If the connection status is found to be abnormal after inquiry, it may be due to
 
 #### Step 1: Purchase Node Stream
 
-1. Go to [https://www.blockrazor.io/](https://www.blockrazor.io/https://www.blockrazor.io/), click on "Sign up" in the upper right corner, and complete the registration.
+1. Go to [https://blockrazor.io/](https://blockrazor.io/), click on "Sign up" in the upper right corner, and complete the registration.
 2. Log in to the console, go to \[Pricing] and complete the purchase.
 3. Go to \[Services] - \[Streams] - \[Node Stream], and click \[Edit].
 4. Select the region closest to the CL client, enter your CL client ENR and click \[Confirm] to complete the addition.
